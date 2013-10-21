@@ -1,0 +1,123 @@
+/*
+Responsive Mobile Menu v1.0
+Author: Danielle Vautier
+
+*/
+body, html {margin:0; font-size:16px;}
+.content { float:left;}
+
+.menu {
+	display:block;
+	position:relative;
+	width:100%;
+	padding:0px;
+	margin:0 auto;
+	text-align: center;
+	line-height:1.4;
+	float:left;
+	}
+	
+.menu li a:hover {color:#666;}
+
+.menu ul {
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	}
+	
+.menu li {
+	margin:0;
+	padding:0;
+	display:inline;
+	border-left:1px solid #ccc;
+	white-space:nowrap;
+	}
+	
+.menu a {
+	color:#333;
+	text-decoration:none;
+	padding:0 3px 0 8px;
+	}
+
+.menu li:first-child {
+	border-left:0;
+	}	
+	
+/*With JS*/
+	
+.menu-title {
+	float:left;
+	width:94%;
+	height:40px;
+	cursor:pointer;
+	background:url(../images/menu-fallback.png)  no-repeat right 10px;
+	background:url(../images/menu.svg) no-repeat right 10px;	
+	background-size: 24px 19px; 
+	margin:0 3%;
+	}
+
+.menu-title h1 {
+	text-align:left;
+	font-size:20px;
+	margin:0;
+	padding:6px 0;
+	}
+	
+.responsiveMenu {
+	border-bottom:1px solid #ccc;
+	}
+	
+.responsiveMenu li {
+	display:block;
+	width:100%;
+	border-left:0;
+	border-top:1px solid #ccc;
+	}
+	
+.responsiveMenu a {	
+	display:block;
+	width:94%;
+	padding:5px 3%;
+	}
+	
+.responsiveMenu li:hover {
+	background-color:#eee;
+	cursor:pointer;
+	}
+
+
+@media screen and (min-width:600px) {
+	
+	.menu-title {
+		display:none;
+		}
+	
+	.menu ul { 
+		display:block!important;
+		border:0;
+		}	
+
+	.menu li {
+		width:auto; 
+		display:inline; 
+		border:0; 
+		border-left:1px solid #ccc;
+		}
+		
+	.menu li:hover  {
+		background:none;
+		}
+		
+	.menu li:first-child {
+		border-left:0;
+		}
+		
+	.menu a {
+		display:inline; 
+		width:auto;
+		padding:0 3px 0 8px;
+		}
+	}

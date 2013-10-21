@@ -1,0 +1,34 @@
+/*
+Responsive Mobile Menu v1.0 IE8, IE7 fallback
+Author: Danielle Vautier
+*/
+	
+.menu-title {
+	display:none;
+	}
+
+.menu ul { 
+	display:block!important;
+	border:0;
+	}	
+
+.menu li {
+	width:auto; 
+	display:inline; 
+	border:0; 
+	border-left:1px solid #ccc;
+	}
+	
+.menu li:hover  {
+	background:none;
+	}
+	
+.menu li:first-child {
+	border-left:0;
+	}
+	
+.menu a {
+	display:inline; 
+	width:auto;
+	padding:0 3px 0 8px;
+	}
