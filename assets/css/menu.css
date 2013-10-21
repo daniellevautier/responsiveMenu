@@ -92,7 +92,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	}
 	
 @media screen and (min-width:600px) {
-	.toggle {
+	.menu-title {
 		display:none;
 		}
 	
