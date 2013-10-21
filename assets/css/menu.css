@@ -6,7 +6,7 @@ Author: Danielle Vautier
 
 /*Page CSS*/
 body, html {margin:0; font-size:16px;}
-.content { float:left;}
+.content { float:left; }
 
 /*Menu  CSS*/
 body{ -webkit-animation: bugfix infinite 1s; }
