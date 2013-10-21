@@ -3,10 +3,17 @@ Responsive Mobile Menu v1.0
 Author: Danielle Vautier
 
 */
+
+/*Page CSS*/
 body, html {margin:0; font-size:16px;}
 .content { float:left;}
 
-.menu {
+/*Menu  CSS*/
+body{ -webkit-animation: bugfix infinite 1s; }
+#toggle, .toggle { display: none; }
+.toggle { display: block; position: relative; cursor: pointer; -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+
+.mainMenu {
 	display:block;
 	position:relative;
 	width:100%;
@@ -17,34 +24,52 @@ body, html {margin:0; font-size:16px;}
 	float:left;
 	}
 	
-.menu li a:hover {color:#666;}
-
-.menu ul {
-	display:block;
+.menu {
 	width:100%;
 	margin:0;
 	padding:0;
 	list-style:none;
 	float:left;
+	border-bottom:1px solid #ccc;
+	max-height: 0px;
+    overflow-y: hidden;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 	}
+	
+#toggle:checked ~ .menu {  max-height:800px; opacity:1;}
+
 	
 .menu li {
 	margin:0;
 	padding:0;
-	display:inline;
-	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
 	white-space:nowrap;
+	display:block;
+	width:100%;
 	}
+	
+.menu li:hover {
+	background-color:#eee;
+	cursor:pointer;
+	}
+
 	
 .menu a {
 	color:#333;
 	text-decoration:none;
-	padding:0 3px 0 8px;
+	display:block;
+	width:94%;
+	padding:5px 3%;
 	}
 
 .menu li:first-child {
 	border-left:0;
 	}	
+
+.menu a:hover {color:#666;}
 	
 /*With JS*/
 	
@@ -66,38 +91,16 @@ body, html {margin:0; font-size:16px;}
 	padding:6px 0;
 	}
 	
-.responsiveMenu {
-	border-bottom:1px solid #ccc;
-	}
-	
-.responsiveMenu li {
-	display:block;
-	width:100%;
-	border-left:0;
-	border-top:1px solid #ccc;
-	}
-	
-.responsiveMenu a {	
-	display:block;
-	width:94%;
-	padding:5px 3%;
-	}
-	
-.responsiveMenu li:hover {
-	background-color:#eee;
-	cursor:pointer;
-	}
-
-
 @media screen and (min-width:600px) {
-	
-	.menu-title {
+	.toggle {
 		display:none;
 		}
 	
-	.menu ul { 
+	.menu { 
 		display:block!important;
 		border:0;
+		overflow:visible;
+		max-height:inherit;
 		}	
 
 	.menu li {
@@ -121,3 +124,5 @@ body, html {margin:0; font-size:16px;}
 		padding:0 3px 0 8px;
 		}
 	}
+
+

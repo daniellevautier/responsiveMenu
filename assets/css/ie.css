@@ -3,13 +3,15 @@ Responsive Mobile Menu v1.0 IE8, IE7 fallback
 Author: Danielle Vautier
 */
 	
-.menu-title {
-	display:none;
-	}
+.toggle {
+		display:none;
+		}
 
-.menu ul { 
+.menu { 
 	display:block!important;
 	border:0;
+	max-height:100%;/*Important for ie7*/
+	overflow:visible;
 	}	
 
 .menu li {
