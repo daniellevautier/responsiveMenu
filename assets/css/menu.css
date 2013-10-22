@@ -72,16 +72,6 @@ body{ -webkit-animation: bugfix infinite 1s; }
 .menu a:hover {color:#666;}
 	
 /*With JS*/
-	
-.mobileMenuWrapper {
-	float:left;
-	width:94%;
-	height:40px;
-	background:url(../images/menu-fallback.png)  no-repeat right 10px;
-	background:url(../images/menu.svg) no-repeat right 10px;	
-	background-size: 24px 19px; 
-	margin:0 3%;
-	}
 
 label.menu-title {
 	text-align:left;
@@ -91,10 +81,13 @@ label.menu-title {
 	width:100%;
 	display:block;
 	cursor:pointer;
+	background:url(../images/menu-fallback.png)  no-repeat right 10px;
+	background:url(../images/menu.svg) no-repeat right 10px;	
+	background-size: 24px 19px; 
 	}
 	
 @media screen and (min-width:600px) {
-	.mobileMenuWrapper {
+	label.menu-title {
 		display:none;
 		}
 	
