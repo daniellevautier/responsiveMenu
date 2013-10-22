@@ -81,8 +81,8 @@ label.menu-title {
 	width:100%;
 	display:block;
 	cursor:pointer;
-	background:url(../images/menu-fallback.png)  no-repeat right 10px;
-	background:url(../images/menu.svg) no-repeat right 10px;	
+	background:url(../images/menu.svg) no-repeat right 10px;
+	background:url(../images/menu.png) no-repeat right 10px;
 	background-size: 24px 19px; 
 	}
 	

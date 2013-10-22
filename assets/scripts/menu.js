@@ -1,5 +1,6 @@
 /*
 Responsive Mobile Menu v1.0
+Description: Enhances CSS transitions but not required
 Author: Danielle Vautier
 */
 
@@ -15,4 +16,3 @@ $(function() {
 	$("#toggle").remove();
 	responsiveMenu();
 });
-
