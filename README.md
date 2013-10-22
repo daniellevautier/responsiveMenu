@@ -7,7 +7,7 @@ N.b. *JS is used to enhance but is not required which provides the user with a d
 Menu Usage
 ----------
 
-**HTML**
+###HTML
 ```
    <nav class="mainMenu"> <!-- nav is an HTML5 element, can just be a div if required-->
       <label for="toggle" class="menu-title">Menu</label>
@@ -29,7 +29,7 @@ Menu Usage
     </nav>
 ```
 
-**CSS**
+###CSS
 Link to menu.css in the ``<head>`` of your HTML document.
 
 JQuery Enhancement
