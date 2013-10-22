@@ -22,6 +22,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	text-align: center;
 	line-height:1.4;
 	float:left;
+	border-bottom:1px solid #ccc;
 	}
 	
 .menu {
@@ -30,7 +31,6 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	padding:0;
 	list-style:none;
 	float:left;
-	border-bottom:1px solid #ccc;
 	max-height: 0px;
     overflow-y: hidden;
     -moz-transition: all 1s ease-in-out;
