@@ -73,26 +73,28 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	
 /*With JS*/
 	
-.menu-title {
+.mobileMenuWrapper {
 	float:left;
 	width:94%;
 	height:40px;
-	cursor:pointer;
 	background:url(../images/menu-fallback.png)  no-repeat right 10px;
 	background:url(../images/menu.svg) no-repeat right 10px;	
 	background-size: 24px 19px; 
 	margin:0 3%;
 	}
 
-.menu-title h1 {
+label.menu-title {
 	text-align:left;
 	font-size:20px;
 	margin:0;
 	padding:6px 0;
+	width:100%;
+	display:block;
+	cursor:pointer;
 	}
 	
 @media screen and (min-width:600px) {
-	.menu-title {
+	.mobileMenuWrapper {
 		display:none;
 		}
 	
