@@ -1,16 +1,19 @@
 /*
-Responsive Mobile Menu v1.0 IE8, IE7 fallback
+Responsive Mobile Toggle Menu v1.0
+Description: Mobile first responsive toggle menu IE8 and IE7 desktop fallback
 Author: Danielle Vautier
 */
-label.menu-title {
-		display:none;
-		}
-
+label.menuTitle {
+	display:none;
+	}
+	
 .menu { 
 	display:block!important;
 	border:0;
+	padding:10px 0;
 	max-height:100%;/*Important for ie7*/
 	overflow:visible;
+	border-bottom:1px solid #ccc;
 	}	
 
 .menu li {

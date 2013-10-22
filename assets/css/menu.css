@@ -1,28 +1,46 @@
 /*
-Responsive Mobile Menu v1.0
+Responsive Mobile Toggle Menu v1.0
+Description: Mobile first responsive toggle menu
 Author: Danielle Vautier
-
 */
 
 /*Page CSS*/
-body, html {margin:0; font-size:16px;}
-.content { float:left; }
+body, html {font-size:16px; font-family:arial, sans-serif; margin:0;}
+.content { float:left; margin:1% 3%; }
+small { font-size:80%;}
 
-/*Menu  CSS*/
+/*Menu mobile first CSS*/
 body{ -webkit-animation: bugfix infinite 1s; }
-#toggle, .toggle { display: none; }
-.toggle { display: block; position: relative; cursor: pointer; -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
 
 .mainMenu {
 	display:block;
 	position:relative;
 	width:100%;
-	padding:0px;
-	margin:0 auto;
+	margin:0;
+	padding:0;
 	text-align: center;
 	line-height:1.4;
 	float:left;
 	border-bottom:1px solid #ccc;
+	box-shadow:0px 0px 3px 5px #ececec;
+	}
+	
+#toggleMenu, .toggleMenu { 
+	display: none;
+	}
+
+.toggleMenu { 
+	display: block; 
+	position: relative; 
+	cursor: pointer; 
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	user-select: none; 
+	}
+	
+#toggleMenu:checked ~ .menu {  
+	max-height:800px; 
+	opacity:1;
 	}
 	
 .menu {
@@ -33,14 +51,12 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	float:left;
 	max-height: 0px;
     overflow-y: hidden;
+	text-align:center;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 	}
-	
-#toggle:checked ~ .menu {  max-height:800px; opacity:1;}
-
 	
 .menu li {
 	margin:0;
@@ -55,7 +71,6 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	background-color:#eee;
 	cursor:pointer;
 	}
-
 	
 .menu a {
 	color:#333;
@@ -69,25 +84,26 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	border-left:0;
 	}	
 
-.menu a:hover {color:#666;}
+.menu a:hover {
+	color:#666;
+	}
 	
-/*With JS*/
-
-label.menu-title {
+label.menuTitle {
 	text-align:left;
 	font-size:20px;
+	padding:6px 3%;
 	margin:0;
-	padding:6px 0;
-	width:100%;
+	width:94%;
 	display:block;
+	font-weight:bold;
 	cursor:pointer;
-	background:url(../images/menu.svg) no-repeat right 10px;
-	background:url(../images/menu.png) no-repeat right 10px;
+	background:url(../images/menu.svg) no-repeat 97% 10px;
+	background:url(../images/menu.png) no-repeat 97% 10px;
 	background-size: 24px 19px; 
 	}
 	
 @media screen and (min-width:600px) {
-	label.menu-title {
+	label.menuTitle {
 		display:none;
 		}
 	
@@ -96,6 +112,7 @@ label.menu-title {
 		border:0;
 		overflow:visible;
 		max-height:inherit;
+		padding:10px 0;
 		}	
 
 	.menu li {
@@ -119,5 +136,3 @@ label.menu-title {
 		padding:0 3px 0 8px;
 		}
 	}
-
-

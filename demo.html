@@ -1,43 +1,36 @@
 <!DOCTYPE html>
-<html>
 <head>
 	<meta charset="utf-8">
-	<title>Responsive Mobile Menu</title>
+	<title>Responsive Mobile Toggle Menu v1.0</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="assets/css/menu.css" type="text/css"/>
 
 	<!--[if lt IE 9]>
     <link rel="stylesheet" href="assets/css/ie.css"/>
     <![endif]-->
-	
-	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 </head>
 
 <body>
-	<nav class="mainMenu">
-		<label for="toggle" class="menu-title">Menu</label>
-		<input type="checkbox" id="toggle" />
+	<nav class="mainMenu"><!-- "nav" is an HTML5 element, you can use div if required -->
+		<label for="toggleMenu" class="menuTitle">MENU</label>
+		<input type="checkbox" id="toggleMenu" />
 		<ul class="menu">
-			<li class="current"><a href="http://www.google.com">Home</a></li>
-			<li><a href="#">Sofas</a></li>
-			<li><a href="#">Chairs</a></li>
-			<li><a href="#">Beds</a></li>
-			<li><a href="#">Tables</a></li>
-			<li><a href="#">Chairs &amp; Benches </a></li>
-			<li><a href="#">Stuff</a></li>
-			<li><a href="#">Important Info</a></li>
-			<li><a href="#">Stock Clearance</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
 			<li><a href="#">Blog</a></li>
-			<li><a href="#">About us</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
 	</nav>
 	
 	<div class="content">
 		<!-- make sure you float this div -->
-		<h2>Responsive!</h2>
+		<h2>Responsive Mobile Toggle Menu v1.0!</h2>
+		<p>Mobile first responsive toggle menu. Hurrah for mobile first.</p>
+		<p><a href="readme.md">Readme</a> for usage and support.</p>
+		<small>Or take a look at some <a href="https://www.google.co.uk/search?safe=off&hl=en&site=imghp&tbm=isch&source=hp&biw=672&bih=584&q=cute+kittens&oq=cute+kittens&gs_l=img.3..0l10.954.2074.0.2167.12.9.0.3.3.0.84.468.9.9.0....0...1ac.1.29.img..0.12.482.bIDY1QB_Oys">really cute kittens</a></small>
 	</div>
 	
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="assets/scripts/menu.js"></script>
 </body>
 </html>

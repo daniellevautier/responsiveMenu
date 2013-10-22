@@ -1,0 +1,6 @@
+/*Page CSS*/
+body, html {font-size:16px; font-family:arial, sans-serif; margin:0;}
+
+.content { float:left; margin:3%; }
+
+small { font-size:80%;}

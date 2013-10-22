@@ -1,12 +1,14 @@
-responsiveMenu
-==============
+Responsive Mobile Toggle Menu v1.0
+==================================
 
-A mobile first responsive CSS toggle menu with JQUERY enhancement
+A **mobile first**, **responsive**, CSS toggle menu with JQUERY enhancement.
+N.b. *JS is used to enhance but is not required which provides the user with a decent fallback :)*
 
-/*Menu Usage*/
+Menu Usage
+----------
 
-  /*HTML*/
-
+**HTML**
+```
    <nav class="mainMenu"> <!-- nav is an HTML5 element, can just be a div if required-->
       <label for="toggle" class="menu-title">Menu</label>
       <input type="checkbox" id="toggle" />
@@ -25,25 +27,28 @@ A mobile first responsive CSS toggle menu with JQUERY enhancement
           <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    
-  /*CSS*/
-  
-  Link to menu.css in the <head> of your HTML document.
+```
 
-/*JQuery Enhancement*/
-  
-  menu.min.js/menu.js improves the checkbox response time and resets the mobile menu to closed on refresh. 
+**CSS**
+Link to menu.css in the ``<head>`` of your HTML document.
+
+JQuery Enhancement
+------------------
+menu.min.js/menu.js improves the checkbox response time and resets the mobile menu to closed on refresh. 
+It is not required for the functionality purposes.
 
 
-/*Browser Support*/
-
-  Chrome 16.0+
-  Safari 5.1+
-  Firefox 4.0+
-  Opera 12
-  IE9 +
-  iOS 4.0+
-  Android 2.2+
+Browser Support
+---------------
+* Chrome 16.0+
+* Safari 5.1+
+* Firefox 4.0+
+* Opera 12
+* IE9 +
+* iOS 4.0+
+* Android 2.2+
 
 Internet Explorer 8 and 7 do not support media queries but an IE specific stylesheet (ie.css) is included 
 to provide a desktop fallback.
+
+**Author:** [www.danielle.vautier.co.uk](http://www.daniellevautier.co.uk)
