@@ -72,7 +72,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	cursor:pointer;
 	}
 	
-.menu a {
+.menu a, .menu a:visited {
 	color:#333;
 	text-decoration:none;
 	display:block;
@@ -130,7 +130,7 @@ label.menuTitle {
 		border-left:0;
 		}
 		
-	.menu a {
+	.menu a, .menu a:visited {
 		display:inline; 
 		width:auto;
 		padding:0 3px 0 8px;

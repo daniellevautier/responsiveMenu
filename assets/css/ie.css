@@ -31,7 +31,7 @@ label.menuTitle {
 	border-left:0;
 	}
 	
-.menu a {
+.menu a, .menu a:visited {
 	display:inline; 
 	width:auto;
 	padding:0 3px 0 8px;
