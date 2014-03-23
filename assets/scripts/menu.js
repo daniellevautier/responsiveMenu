@@ -1,18 +1,20 @@
 /*
-Responsive Mobile Toggle Menu v1.0
+Responsive Mobile Toggle Menu v1.1
 Description: JS enhances CSS response time and menu caching but not required
 Author: Danielle Vautier
 */
 
-function responsiveMenu() {	
-	$('.menuTitle').click(function () {
-		$('.menu').slideToggle("slow");
-		$('.menu').css({"max-height":"800px"});
-	});
-};
+	var responsiveMenu = function(e) {
+		//Reset menu to closed on load
+		//Set max-height to max height of menu
+		$('.menu').css({ 'max-height' : '800px', 'display' : 'none'});
 
-$(function() {
-	$(".menu").css({"display":"none","transition":"none","max-height":"inherit"});
-	$("#toggleMenu").remove();
-	responsiveMenu();
-});
+		//Animate menu
+		$('.menuTitle').click(function () {
+			$('.menu').slideToggle();
+		});
+	}	
+
+	$(function() {
+		responsiveMenu();
+	});
