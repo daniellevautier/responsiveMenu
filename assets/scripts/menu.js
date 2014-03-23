@@ -14,7 +14,3 @@ Author: Danielle Vautier
 			$('.menu').slideToggle();
 		});
 	}	
-
-	$(function() {
-		responsiveMenu();
-	});
