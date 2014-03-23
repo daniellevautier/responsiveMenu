@@ -1,8 +1,8 @@
-Responsive Mobile Toggle Menu v1.0
+Responsive Mobile Toggle Menu v1.1
 ==================================
 
 A **mobile first**, **responsive**, CSS toggle menu with JQUERY enhancement.
-N.b. *JS is used to enhance but is not required which provides the user with a decent fallback :)*
+N.b. *JS is used to enhance by hiding menu on resfresh but is not required which provides the user with a decent fallback :)*
 
 Menu Usage
 ----------
@@ -12,20 +12,12 @@ Menu Usage
    <nav class="mainMenu"> <!-- nav is an HTML5 element, can just be a div if required-->
       <label for="toggle" class="menu-title">Menu</label>
       <input type="checkbox" id="toggle" />
-      <ul class="menu">
-          <li class="current"><a href="http://www.google.com">Home</a></li>
-          <li><a href="#">Sofas</a></li>
-          <li><a href="#">Chairs</a></li>
-          <li><a href="#">Beds</a></li>
-          <li><a href="#">Tables</a></li>
-          <li><a href="#">Chairs &amp; Benches </a></li>
-          <li><a href="#">Stuff</a></li>
-          <li><a href="#">Important Info</a></li>
-          <li><a href="#">Stock Clearance</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact</a></li>
-      </ul>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
     </nav>
 ```
 
@@ -34,7 +26,7 @@ Link to menu.css in the ``<head>`` of your HTML document.
 
 JQuery Enhancement
 ------------------
-menu.min.js/menu.js improves the checkbox response time and resets the mobile menu to closed on refresh. 
+menu.min.js/menu.js adds animations and  and resets the mobile menu to closed on refresh. 
 It is not required for the functionality purposes.
 
 
@@ -52,3 +44,8 @@ Internet Explorer 8 and 7 do not support media queries but an IE specific styles
 to provide a desktop fallback.
 
 **Author:** [www.danielle.vautier.co.uk](http://www.daniellevautier.co.uk)
+
+Version History 
+---------------
+* Version 1.1 - Removed transitions and added JQuery Animation and on reload bug
+* Version 1.0 - CSS transitions
