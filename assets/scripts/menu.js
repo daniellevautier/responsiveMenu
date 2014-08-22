@@ -1,5 +1,5 @@
 /*
-Responsive Mobile Toggle Menu v1.1
+Responsive Mobile Toggle Menu v1.2
 Description: JS enhances CSS response time and menu caching but not required
 Author: Danielle Vautier
 */
@@ -14,3 +14,12 @@ Author: Danielle Vautier
 			$('.menu').slideToggle();
 		});
 	}	
+
+/* This function should be called if you wish the 
+menu to be forced closed after clicking an item. */
+
+	var forceUncheck = function() {
+		$(".menu a").click(function() {
+			$("#toggleMenu").prop('checked', false);
+		});
+	}

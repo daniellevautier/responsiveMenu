@@ -26,9 +26,13 @@ Link to menu.css in the ``<head>`` of your HTML document.
 
 JQuery Enhancement
 ------------------
-menu.min.js/menu.js adds animations and  and resets the mobile menu to closed on refresh. 
+menu.min.js/menu.js 
+**responsiveMenu() **
+This adds animations and  and resets the mobile menu to closed on refresh. 
 It is not required for the functionality purposes.
-
+**forceUncheck() **
+This function should be called if you wish the menu to be forced closed after clicking an item.
+It is not required for the functionality purposes.
 
 Browser Support
 ---------------
@@ -47,5 +51,6 @@ to provide a desktop fallback.
 
 Version History 
 ---------------
+* Version 1.2 - Added function to force close the menu after clicking a menu link
 * Version 1.1 - Removed transitions and added JQuery Animation and on reload bug
 * Version 1.0 - CSS transitions
