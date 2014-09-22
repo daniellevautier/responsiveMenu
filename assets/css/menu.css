@@ -1,5 +1,5 @@
 /*
-Responsive Mobile Toggle Menu v1.1
+Responsive Mobile Toggle Menu v1.2.1
 Description: Mobile first responsive toggle menu
 Author: Danielle Vautier
 */
@@ -11,6 +11,8 @@ small { font-size:80%;}
 
 /*Menu mobile first CSS*/
 body{ -webkit-animation: bugfix infinite 1s; }
+/*This fixes a chrome/webkit bug for older Android Browsers */
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } 
 
 .mainMenu {
 	display:block;

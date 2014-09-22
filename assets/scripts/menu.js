@@ -1,5 +1,5 @@
 /*
-Responsive Mobile Toggle Menu v1.2
+Responsive Mobile Toggle Menu v1.2.1
 Description: JS enhances CSS response time and menu caching but not required
 Author: Danielle Vautier
 */

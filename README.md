@@ -1,4 +1,4 @@
-Responsive Mobile Toggle Menu v1.2
+Responsive Mobile Toggle Menu v1.2.1
 ==================================
 
 A **mobile first**, **responsive**, CSS toggle menu with JQUERY enhancement.
@@ -51,6 +51,7 @@ to provide a desktop fallback.
 
 Version History 
 ---------------
+* Version 1.2.1 - Added bug fix for older Android browser < 4.3
 * Version 1.2 - Added function to force close the menu after clicking a menu link
 * Version 1.1 - Removed transitions and added JQuery Animation and on reload bug
 * Version 1.0 - CSS transitions
