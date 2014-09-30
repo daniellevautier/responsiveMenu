@@ -1,1 +1,927 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"secon",
+				"secondaryFont"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"slider",
+				"slider-detail"
+			],
+			[
+				"viw",
+				"viewport"
+			],
+			[
+				"sec",
+				"secondaryFont"
+			],
+			[
+				"bore",
+				"bordered"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"fon-",
+				"font-family"
+			],
+			[
+				"li",
+				"lim	link_to model"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"loog",
+				"logoTint"
+			],
+			[
+				"toggl",
+				"toggleClass"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"se",
+				"secondaryFont"
+			],
+			[
+				"nor",
+				"normal"
+			],
+			[
+				"logo",
+				"logoBrown"
+			],
+			[
+				"lo",
+				"logoTint"
+			],
+			[
+				"log",
+				"logoBrown"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"lgoo",
+				"logoTint"
+			],
+			[
+				"primar",
+				"primaryFont"
+			],
+			[
+				"margi-",
+				"margin-left"
+			],
+			[
+				"boxs",
+				"box-sizing"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"dark",
+				"darkBrown"
+			],
+			[
+				"cant",
+				"cantwait-btn"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"line",
+				"line-through"
+			],
+			[
+				"Preve",
+				"preventDefault"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"authro",
+				"author-details"
+			],
+			[
+				"MEDg",
+				"medGrey"
+			],
+			[
+				"urban",
+				"urbanRegularFont"
+			],
+			[
+				"urab",
+				"urbanLightFont"
+			],
+			[
+				"ur",
+				"urbanRegularFont"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"med",
+				"medGrey"
+			],
+			[
+				"d",
+				"disabled"
+			],
+			[
+				"bacgr",
+				"background"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"primary",
+				"primaryFont"
+			],
+			[
+				"impor",
+				"important"
+			],
+			[
+				"backg",
+				"background-attachment"
+			],
+			[
+				"urb",
+				"urbanLightFont"
+			],
+			[
+				"urba",
+				"urbanRegularFont"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Ad",
+				"addClass"
+			],
+			[
+				"ch",
+				"checked"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"dar",
+				"darkGrey"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"stra",
+				"strapline-wrapper"
+			],
+			[
+				"da",
+				"darkGrey"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"loo",
+				"logoBrown"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"font-a",
+				"font-family"
+			],
+			[
+				"header",
+				"header-links"
+			],
+			[
+				"pr",
+				"primaryFont"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"list-",
+				"list-style-image"
+			],
+			[
+				"backgrond",
+				"background-position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "demo.html",
+			"settings":
+			{
+				"buffer_size": 1863,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1769,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 144,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/_development/Everest/app/EPiServerEverestMain/assets/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 192688,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"intal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/_development/responsiveMenu/assets/css/menu.css",
+		"/D/_development/responsiveMenu/assets/scripts/menu.js",
+		"/D/_development/responsiveMenu/assets/scripts/menu.min.js",
+		"/D/_development/responsiveMenu/demo2.html",
+		"/D/_development/Everest/app/EPiServerEverestMain/html/index.html",
+		"/D/_development/responsiveSassBP/source/assets/css/_framework.scss",
+		"/D/_development/SofasAndStuff/html/source/_footer.erb",
+		"/D/_development/SofasAndStuff/html/source/divan.html.erb",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/css/styles.css",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/css/styles.min.css",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/css/not-responsive-styles.css",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/css/non-responsive-styles.min.css",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_helenCss.scss",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_headerFooter.scss",
+		"/D/_development/SofasAndStuff/html/source/showroom.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/menu.js",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/fabricFilters.js",
+		"/D/_development/SofasAndStuff/html/source/classic-new-step2.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/headerFooter.scss",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/product-fabric-filter.js",
+		"/D/_development/SofasAndStuff/html/source/article.html.erb",
+		"/D/_development/SofasAndStuff/html/source/_mattressSwatches.erb",
+		"/D/_development/SofasAndStuff/html/source/mattresses.html.erb",
+		"/D/_development/SofasAndStuff/html/source/_newfabricSwatches.erb",
+		"/D/_development/SofasAndStuff/html/source/fabric-form.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_danielleCss.scss",
+		"/D/_development/SofasAndStuff/html/source/_headerCheckout.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_css.scss",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_reset.scss",
+		"/D/_development/SofasAndStuff/html/source/valances.html.erb",
+		"/D/_development/SofasAndStuff/html/source/_bedSwatches.erb",
+		"/D/_development/SofasAndStuff/html/source/all-sofas.html.erb",
+		"/D/_development/SofasAndStuff/html/source/classic-old-step3.html.erb",
+		"/D/_development/SofasAndStuff/html/source/cant-wait.html.erb",
+		"/D/_development/SofasAndStuff/html/source/classic-british-sofas.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/easyzoom.min.js",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_framework.scss",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_variables.scss",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/custom.js",
+		"/D/_development/SofasAndStuff/html/source/_sidebar.erb",
+		"/D/_development/SofasAndStuff/html/source/classic-old-step3fabric.html.erb",
+		"/D/_development/DiabetesUK/html/source/research.html.erb",
+		"/D/_development/DiabetesUK/html/source/assets/css/_vega.scss",
+		"/D/_development/DiabetesUK/html/source/testingPage.html.erb",
+		"/D/_development/DiabetesUK/html/source/assets/css/styles.scss",
+		"/D/_development/DiabetesUK/html/source/2column_6-1.html",
+		"/D/_development/DiabetesUK/html/source/2column_50-50.html",
+		"/D/_development/DiabetesUK/html/source/2column_70-30.html",
+		"/D/_development/DiabetesUK/html/source/2column_3-4.html",
+		"/D/_development/DiabetesUK/html/source/2column_5-2.html",
+		"/D/_development/SofasAndStuff/html/source/classic-old-step2.html.erb",
+		"/D/_development/SofasAndStuff/html/source/checkout4.html.erb",
+		"/D/_development/SofasAndStuff/html/source/gallery.html.erb",
+		"/D/_development/SofasAndStuff/html/source/checkout3.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_menu.scss",
+		"/D/_development/SofasAndStuff/html/source/what-people-say.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/oldtemplate/all.css",
+		"/D/_development/SofasAndStuff/html/source/checkout2.html.erb",
+		"/D/_development/SofasAndStuff/html/source/infographic.html.erb",
+		"/D/_development/SofasAndStuff/html/source/index.html.erb",
+		"/C/Users/DanielleVautier/Desktop/7684-B/7684-B/jquery.reel.js",
+		"/D/_development/SofasAndStuff/html/source/checkout.html.erb",
+		"/D/_development/SofasAndStuff/html/source/cant-wait-model.html.erb",
+		"/C/Users/DanielleVautier/Desktop/7684-B/7684-B/7644-Picadilly.html",
+		"/D/_development/SofasAndStuff/html/source/_header.erb",
+		"/D/_development/SofasAndStuff/html/source/oldPage.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/styles.scss",
+		"/D/_development/SofasAndStuff/html/source/cant-wait-sku.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/checkout.css",
+		"/C/Users/DanielleVautier/Desktop/7684-B/7684-B/7646-Borough.html",
+		"/D/_development/SofasAndStuff/html/build/assets/css/helenCss.css",
+		"/D/_development/SofasAndStuff/html/source/assets/css/ie.scss",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/jquery.reel.min.js",
+		"/D/_development/SofasAndStuff/html/source/blog.html.erb",
+		"/D/_development/SofasAndStuff/html/source/_sidebar-blog.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/helenCss.scss",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/jquery.reel.js",
+		"/D/_development/SofasAndStuff/html/source/looking-after-your-sofa.html.erb",
+		"/D/_development/SofasAndStuff/html/source/_blogside.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/oldtemplate/blueprint/src/typography.css",
+		"/D/_development/SofasAndStuff/html/source/collection.html.erb",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/appointmentDatePicker.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/callbackDatePicker.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/custom.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/forms.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/ga_validation.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/lib/enquire.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/lib/jquery.bxslider.min.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/lib/jquery-ui-1.10.3.custom.min.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/accordion.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/accordion.min.js",
+		"/D/_development/Everest/app/EPiServerEverestMain/assets/scripts/legacy.js",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_bxslider.scss",
+		"/D/_development/SofasAndStuff/html/source/lifetime-guarantee.html.erb",
+		"/D/_development/SofasAndStuff/html/source/fuss-free-returns.html.erb",
+		"/D/_development/SofasAndStuff/html/source/about-us.html.erb",
+		"/D/_development/SofasAndStuff/html/source/what-people-say.html",
+		"/D/_development/SofasAndStuff/html/source/showrooms.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/_resdesignCSS.scss",
+		"/D/_development/SofasAndStuff/html/source/made-in-britain.html.erb",
+		"/D/_development/SofasAndStuff/html/source/stools.html.erb",
+		"/D/_development/SofasAndStuff/html/source/throws.html.erb",
+		"/D/_development/SofasAndStuff/html/source/tables.html.erb",
+		"/D/_development/SofasAndStuff/html/source/7daydelivery.html.erb",
+		"/D/_development/SofasAndStuff/html/assets/css/_danielleCss.scss",
+		"/D/_development/SofasAndStuff/html/fabric2.html.erb",
+		"/D/_development/SofasAndStuff/html/assets/css/_css.scss",
+		"/D/_development/SofasAndStuff/html/all-sofas.html.erb",
+		"/D/_development/SofasAndStuff/html/assets/css/_resdesignCSS.scss",
+		"/D/_development/SofasAndStuff/html/source/fabric.html.erb",
+		"/D/_development/SofasAndStuff/html/source/fabric2.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/jquery.easyPaginate.js",
+		"/D/_development/SofasAndStuff/html/source/clearance.html.erb",
+		"/C/Users/DanielleVautier/Desktop/source/showrooms.html",
+		"/D/_development/SofasAndStuff/html/build/assets/css/styles.css",
+		"/D/_development/SofasAndStuff/html/source/bestsellers-old.html",
+		"/D/_development/SofasAndStuff/html/source/showrooms.html",
+		"/D/_development/SofasAndStuff/html/source/bestsellers.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/scripts/enquire.min.js",
+		"/D/_development/SofasAndStuff/html/source/assets/css/resdesignCSS.css",
+		"/D/_development/SofasAndStuff/html/source/_footerCheckout.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/resdesignCSS.scss",
+		"/D/_development/SofasAndStuff/html/source/showroom.html",
+		"/D/_development/SofasAndStuff/html/source/fabriccantwait.html.erb",
+		"/D/_development/SofasAndStuff/html/source/assets/css/headerFooter.css",
+		"/D/_development/SofasAndStuff/html/source/assets/css/css.scss",
+		"/D/_development/SofasAndStuff/html/source/assets/css/styles.css",
+		"/D/_development/SofasAndStuff/html/source/assets/css/framework.scss"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"toggleMenu",
+			"toggleMenu,",
+			"css",
+			"details",
+			"dimensionDiagram",
+			"model-page",
+			".slider",
+			".slider ",
+			".slider .h2",
+			".urban",
+			"promo-full-banner",
+			"showroomLeft",
+			"fittlewor",
+			"bxs",
+			".payment-redirect",
+			".footer-section",
+			"checkout-btn-wrapper",
+			";\n",
+			".checkout-btn-wrapper",
+			"blogpost",
+			"blog",
+			"blog-post",
+			"blog-posts",
+			"recent posts",
+			".product-page-intro",
+			"header-link",
+			".styled-list {",
+			".styled-list",
+			" .styled-list",
+			".styled-list li",
+			"loadingimage",
+			"loadingim",
+			"loa",
+			"#loadingImage",
+			"$(\".sofa-loading\")",
+			"swatchDescription",
+			".hide",
+			"hide ",
+			"$(\".sofa-loading\")",
+			"loadingImage",
+			"loadingImage ",
+			"application",
+			"loadingImage",
+			"console.#",
+			"loading",
+			"classic-product-details",
+			"wrapper-100 bordered",
+			"				\n",
+			"step2",
+			"step2s",
+			"step2",
+			"step-2",
+			"step",
+			"alwin",
+			"classic-product-details",
+			"fabric-samples-landscape",
+			"&",
+			"dimensions",
+			"fullsize-loading",
+			"src",
+			"gill sans",
+			"Gill Sans ",
+			"Light",
+			"\"Gill Sans\",\"Gill Sans MT\"",
+			"gill sans",
+			"\"Gill Sans\", \"Gill Sans MT\"",
+			"gill sans",
+			"\"Gill Sans\",\"Gill Sans MT\"",
+			"\"Gill Sans\", \"Gill Sans MT\"",
+			"rating",
+			"star-",
+			"star-sprit",
+			"star-sprite.gif",
+			"zoom",
+			"classic",
+			"classic-fav",
+			"link-sty",
+			"-link",
+			"link",
+			"<<<",
+			"checkout",
+			"checkout-btn",
+			"checkout-",
+			"fabric-docker.sofas",
+			"countSofaFabricSwatches",
+			"countFabricSwatches",
+			"sofa-samples-wrapper",
+			"countSofas",
+			"countfabric",
+			"countSofaFabricSwatches",
+			"sofa-samples-wrapper ",
+			"sofa-samples-wrapper",
+			"sofa-samples-wrapper ",
+			".fabric-wrapper .fabric-thumbs img",
+			".fabric-wrappe",
+			"assets/images/fabrics/swatch.png",
+			"assets/images/cms-images/alwinton-red.jpg",
+			"_",
+			"super ",
+			"slider",
+			"carouse",
+			".rating",
+			"range-text h2",
+			"range-text",
+			".best-selling-text",
+			".slider-detail",
+			";\n",
+			".cleaning-list",
+			".slider-detail",
+			"cantwait.activ",
+			"height",
+			"fabric-filters.type",
+			"fabric-filters ",
+			"head",
+			"fabric-count",
+			"secondary-cta",
+			"fabric-swatch",
+			"fabric-swatch large-sofa medium-sofa small-sofa chair",
+			"fabric-thumbs",
+			"step-2-size",
+			"classic-tabs",
+			"classic-tabs ",
+			"classic-tabs",
+			"classic-tabs ",
+			"<<<",
+			"{\n",
+			"<<<<",
+			"head "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "demo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1523,
+								1574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/D/_development/Everest/app/EPiServerEverestMain/assets/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91817,
+								91817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 96485.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "demo.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"assets/css/styles.css"
+			],
+			[
+				"inde",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

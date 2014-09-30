@@ -1,6 +1,6 @@
 /*
 Responsive Mobile Toggle Menu v2.0
-Description: Mobile first responsive toggle menu
+Description: Mobile first responsive toggle menu - CSS for demo3.html
 Author: Danielle Vautier
 */
 
@@ -15,7 +15,6 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	width:100%;
 	margin:0;
 	padding:0;
-	text-align: center;
 	float:left;
 	}
 	
@@ -47,17 +46,12 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	max-height:0;
 	}
 
-.menu ul {
-	float:left;
-	width:100%;
-}
-
 .menu li {
 	margin:0;
 	padding:0;
-	white-space:nowrap;
 	display:block;
 	width:100%;
+	float:left;
 	}
 	
 .menu li:hover {
@@ -67,7 +61,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
 .menu a, .menu a:visited {
 	text-decoration:none;
 	display:block;
-	width:94%;
+	float:left;
 	padding:5px 3%;
 	}
 
@@ -83,11 +77,36 @@ label.menuTitle {
 	display:block;
 	font-weight:bold;
 	cursor:pointer;
-/*	background:url(../images/menu.svg) no-repeat 97% 10px;*/
 	background:url(../images/menu.png) no-repeat 97% 10px;
 	background-size: 24px 19px; 
 	}
 	
+/*Child CSS*/
+.menu ul {
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+	}
+	
+.menu .toggleChildren {
+	float:right;
+	width:13%;
+	height:30px; /*Customise to your menu height*/
+	padding:0;
+	border-left:1px solid #ccc;
+	display:block;
+	background:url(../images/nav-arrow.png) no-repeat center center;
+	background-size: 11px 8px; 
+}
+
+.menu .toggleChildren.contract {
+	background: #eee url(../images/nav-arrow-contract.png) no-repeat center center;
+	background-size: 11px 8px; 
+}
+
+
+
 @media screen and (min-width:768px) {
 	label.menuTitle {
 		display:none;
@@ -98,13 +117,14 @@ label.menuTitle {
 		border:0;
 		overflow:visible;
 		max-height:100px!important;
-		padding:10px 0;
+		
 		}	
 
 	.menu li {
 		width:auto; 
 		display:inline; 
 		border:0; 
+		position: relative; /*required for absolute positioning use*/
 		}
 		
 	.menu li:hover  {
@@ -116,13 +136,38 @@ label.menuTitle {
 		display:inline; 
 		width:auto;
 		}
+
+	.menu ul {
+		display:none!important;
+		position: absolute;
+		left:0;
+		top:39px; /*height of your main nav*/
+		min-width: 200px; /*change to suit your width*/
+		}
+
+	.menu ul li {
+		display: block;
+		width:100%;
 	}
+
+	.menu ul a, .menu ul a:visited {
+		width:88%;
+		padding:10px 6%;
+	}
+
+	.menu li:hover ul {
+		display: block!important;
+	}
+
+	.menu .toggleChildren {
+		display:none;
+		}
+}
 
 
 /*Menu Styling CSS*/
 
 .mainMenu {
-	border-bottom:1px solid #ccc;
 	box-shadow:0px 0px 3px 5px #ececec;
 	}
 
@@ -130,25 +175,52 @@ label.menuTitle {
 	border-top:1px solid #ccc;
 	}
 	
-.menu a, .menu a:visited, .menu:active {
+.menu a, .menu a:visited {
 	color:#333;
-	background: none;
 	}
 	
 label.menuTitle {
 	font-size:20px;
 	}
-	
+
+/*Child styling*/
+.menu ul {
+	background:#eee;
+	z-index: 9999;
+}
+
+.menu ul a, .menu ul a:visited {
+	color:#333;
+}
+
 @media screen and (min-width:768px) {
+	.menu {
+		margin-left:3%;
+		width:97%;
+	}
+
 	.menu li {
 		border:0;
 		}
-	
-	.menu li:hover a {
+
+	.menu li:hover > a {
 		color:#ccc;
 		}
 
 	.menu a, .menu a:visited {
-		padding:0 3px 0 8px;
+		padding:10px;
+		border-right:1px solid #ccc;
 		}
+
+	.menu > li:first-child a {
+		border-left:1px solid #ccc;
+	}
+
+	/* Child styling */
+
+	.menu ul a {
+		border:0;
+		border-bottom:1px solid #ccc;
+	}
+	
 }

@@ -1,0 +1,92 @@
+/*
+Responsive Mobile Toggle Menu v1.0
+Description: Mobile first responsive toggle menu IE8 and IE7 desktop fallback  
+CSS for demo3.html
+Author: Danielle Vautier
+*/
+
+/*Function*/
+label.menuTitle {
+	display:none;
+	}
+
+.menu { 
+	display:block!important;
+	border:0;
+	overflow:visible;
+	max-height:100px!important;
+	}	
+
+.menu li {
+	width:auto; 
+	display:inline; 
+	border:0; 
+	position: relative; /*required for absolute positioning use*/
+	}
+	
+.menu li:hover  {
+	background:none;
+	}
+
+	
+.menu a, .menu a:visited {
+	display:inline; 
+	width:auto;
+	}
+
+.menu ul {
+	display:none!important;
+	position: absolute;
+	left:0;
+	top:38px; /*height of your main nav*/
+	min-width: 200px; /*change to suit your width*/
+	}
+
+.menu ul li {
+	display: block;
+	width:100%;
+}
+
+.menu ul a, .menu ul a:visited {
+	width:88%;
+	padding:10px 6%;
+}
+
+.menu li:hover ul {
+	display: block!important;
+}
+
+.menu .toggleChildren {
+	display:none;
+	}
+
+
+/*Styling*/
+.menu {
+	margin-left:3%;
+	width:97%;
+}
+
+.menu li {
+	border:0;
+	}
+
+.menu li:hover > a {
+	color:#ccc;
+	}
+
+.menu a, .menu a:visited {
+	padding:10px;
+	border-right:1px solid #ccc;
+	}
+
+.menu > li:first-child a {
+	border-left:1px solid #ccc;
+}
+
+/* Child styling */
+
+.menu ul a {
+	border:0;
+	border-bottom:1px solid #ccc;
+}

@@ -4,10 +4,10 @@
 	<title>Responsive Mobile Toggle Menu</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="assets/css/styles.css" type="text/css"/>
-	<link rel="stylesheet" href="assets/css/menu.css" type="text/css"/>
+	<link rel="stylesheet" href="assets/css/menuChildren.css" type="text/css"/>
 
 	<!--[if lt IE 9]>
-    <link rel="stylesheet" href="assets/css/ie.css"/>
+    <link rel="stylesheet" href="assets/css/ieMenuChildren.css"/>
     <![endif]-->
 </head>
 
@@ -18,9 +18,21 @@
 		<input type="checkbox" id="toggleMenu" />
 		<ul class="menu">
 			<li><a href="#">Home</a></li>
-			<li><a href="#about">About</a></li>
+			<li><a href="#about">About</a>
+				<ul>
+					<li><a href="#">A  with a really really long title</a></li>
+					<li><a href="#">A subpage</a></li>
+					<li><a href="#">A subpage</a></li>
+				</ul>
+			</li>
 			<li><a href="#versionHistory">Version History</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="#contact">Contact</a>
+				<ul>
+					<li><a href="#">A subpage</a></li>
+					<li><a href="#">A subpage</a></li>
+					<li><a href="#">A subpage</a></li>
+				</ul>
+			</li>
 		</ul>
 	</nav>
 	
@@ -28,7 +40,8 @@
 		<!-- make sure you float this div -->
 	
 		<h2 id="about">Responsive Mobile Toggle Menu v2.0!</h2>
-		<p><strong>This demo shows in page only anchors with forced closing of the menu. Sadly, JQuery is used for the forced closing action but the menu will still work without it! Yey progressive enhancement!</strong></p>
+		<p><strong>This demo includes support for child pages (one level deep). This approach can be used if both the parent page and the child pages are links to separate pages. In this example the desktop sub menu is displayed with hover.</strong></p>
+		<p>Note this uses JQuery to toggle sub pages on mobile but it will work still function with JavaScript disabled. Yey progressive enhancement.</p>
 		<p><a href="readme.md">Readme</a> for usage and support.</p>
 		<small>Or take a look at some <a href="https://www.google.co.uk/search?safe=off&hl=en&site=imghp&tbm=isch&source=hp&biw=672&bih=584&q=cute+kittens&oq=cute+kittens&gs_l=img.3..0l10.954.2074.0.2167.12.9.0.3.3.0.84.468.9.9.0....0...1ac.1.29.img..0.12.482.bIDY1QB_Oys">really cute kittens</a></small>
 		<p><small><a href="#top">Back to top</a></small></p>
@@ -56,7 +69,7 @@
 
 <script>
 	$(function() {
-		forceUncheck();
+		toggleChildren();
 	})
 </script>
 </body>
