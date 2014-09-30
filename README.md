@@ -54,7 +54,7 @@ I take no responsibility for your broken code.
 
 Version History 
 ---------------
-* Version 2.0 - Restructured CSS and added support for child pages< 4.3
+* Version 2.0 - Restructured CSS and added support for child pages
 * Version 1.2.1 - Added bug fix for older Android browser < 4.3
 * Version 1.2 - Added function to force close the menu after clicking a menu link
 * Version 1.1 - Removed transitions and added JQuery Animation and on reload bug
