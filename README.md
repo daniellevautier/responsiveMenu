@@ -1,4 +1,4 @@
-Responsive Mobile Toggle Menu v2.0
+Responsive Mobile Toggle Menu v2.1
 ==================================
 
 A **mobile first**, **responsive**, CSS toggle menu with jQuery enhancements.
