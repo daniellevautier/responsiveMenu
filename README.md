@@ -1,4 +1,4 @@
-Responsive Mobile Toggle Menu v2.1
+Responsive Mobile Toggle Menu v2.2
 ==================================
 
 A **mobile first**, **responsive**, CSS toggle menu with jQuery enhancements.
@@ -53,6 +53,7 @@ I take no responsibility for your broken code.
 
 Version History 
 ---------------
+* Version 2.2 Reworking the demo3 CSS/JQuery Single child menu
 * Version 2.1 - Added SVG Support, fixed menu height bug now 100% and added variables to menu.js for easier management
 * Version 2.0 - Restructured CSS and added support for child pages
 * Version 1.2.1 - Added bug fix for older Android browser < 4.3

@@ -1,5 +1,5 @@
 /*
-Responsive Mobile Toggle Menu v2.1
+Responsive Mobile Toggle Menu v2.2
 Description: Mobile first responsive toggle menu IE8 and IE7 desktop media query fallback
 Author: Danielle Vautier
 */
@@ -30,11 +30,6 @@ label.menuTitle {
 
 
 /*Add any styling CSS here */
-
-.mainMenu {
-	padding:10px 0;
-	}
-
 .mainMenu li {
 	border:0;
 	}
@@ -44,5 +39,5 @@ label.menuTitle {
 	}
 
 .mainMenu a, .mainMenu a:visited {
-	padding:0 3px 0 8px;
+	padding:10px 3px 10px 8px;
 	}

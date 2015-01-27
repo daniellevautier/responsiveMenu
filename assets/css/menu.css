@@ -1,5 +1,5 @@
 /*
-Responsive Mobile Toggle Menu v2.1
+Responsive Mobile Toggle Menu v2.2
 Description: Mobile first responsive toggle menu
 Author: Danielle Vautier
 */
@@ -9,7 +9,6 @@ body{ -webkit-animation: bugfix infinite 1s; }
 
 /*This fixes a chrome/webkit bug for older Android Browsers */
 @-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } 
-
 
 /*Required functional CSS don't change this bit
 CSS styles are at the end! */
@@ -32,7 +31,7 @@ CSS styles are at the end! */
 	opacity:1;
 	}
 	
-.mainMenu ul {
+.mainMenu > ul {
 	width:100%;
 	margin:0;
 	padding:0;
@@ -45,9 +44,10 @@ CSS styles are at the end! */
 .mainMenu li {
 	margin:0;
 	padding:0;
-	white-space:nowrap; /*Might need to revist this*/
+	white-space:nowrap;
 	display:block;
 	width:100%;
+	float:left;
 	}
 	
 .mainMenu a, .mainMenu a:visited {
@@ -83,19 +83,13 @@ label.menuTitle {
 		display:inline; 
 		border:0; 
 		}
-
-	.mainMenu a, .mainMenu a:visited {
-		display:inline; 
-		width:auto;
-		}
-	}
+}
 
 
 /*Menu Styling CSS - change the below to suit your site!*/
 .mainMenu {
 	border-bottom:1px solid #ccc;
 	text-align: center;
-	box-shadow:0px 0px 3px 5px #ececec;
 	}
 
 .mainMenu li {
@@ -118,19 +112,16 @@ label.menuTitle {
 	}
 	
 @media screen and (min-width:768px) {
-	.mainMenu {
-		padding:10px 0;
-		}
 
 	.mainMenu li {
 		border:0;
 		}
 	
 	.mainMenu a:hover  {
-		color:#ccc;
+		color:#767676;
 		}
 
 	.mainMenu a, .mainMenu a:visited {
-		padding:0 3px 0 8px;
+		padding:10px 3px 10px 8px;
 		}
 }
