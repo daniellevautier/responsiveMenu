@@ -1,0 +1,616 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"bre",
+				"breeserif"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"list-sy",
+				"list-style-image"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"background-i",
+				"background-size"
+			],
+			[
+				"bree",
+				"BreeSerif"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"rg",
+				"right"
+			],
+			[
+				"parent",
+				"parents"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"append",
+				"appendTo"
+			],
+			[
+				"second",
+				"secondaryNav"
+			],
+			[
+				"exp",
+				"expand"
+			],
+			[
+				"blu",
+				"bluetint"
+			],
+			[
+				"selec",
+				"selectableIcon"
+			],
+			[
+				"br",
+				"brandBlue"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"borde",
+				"borderbox"
+			],
+			[
+				"border-",
+				"border-top"
+			],
+			[
+				"view",
+				"viewport"
+			],
+			[
+				"moz-a",
+				"moz-appearance"
+			],
+			[
+				"textl",
+				"text-align"
+			],
+			[
+				"du",
+				"dynamicMenu"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"li",
+				"lis	list-style"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"play",
+				"Playtime"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"rokk",
+				"Rokkit"
+			],
+			[
+				"rok",
+				"Rokkit"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: tag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Eligo Media/Clients/L J Fairburn/Website/assets/css/style.css",
+		"/E/GIT/SofasAndStuff/html/Gemfile",
+		"/E/GIT/cisgo/html/build/assets/css/ie.css",
+		"/E/GIT/responsiveMenu/assets/css/ie.css",
+		"/E/Eligo Media/Clients/L J Fairburn/Website/recipes.html",
+		"/E/GIT/cisgo/html/source/invoice-add.html.erb",
+		"/E/GIT/cisgo/html/source/projects.html.erb",
+		"/E/GIT/cisgo/html/source/schedule-edit.html.erb",
+		"/E/GIT/cisgo/html/source/project-add-sub.html.erb",
+		"/E/GIT/cisgo/html/source/project-saved.html.erb",
+		"/E/GIT/cisgo/html/source/project-assign.html.erb",
+		"/E/GIT/cisgo/html/source/assigned-sub-contractor.html.erb",
+		"/E/GIT/cisgo/html/source/_projectSubNav.erb",
+		"/E/GIT/cisgo/html/source/project-add.html.erb",
+		"/E/GIT/cisgo/html/source/_header.erb",
+		"/E/GIT/cisgo/html/source/_footer.erb",
+		"/E/GIT/cisgo/html/source/network.html.erb",
+		"/E/GIT/cisgo/html/source/_header2.erb",
+		"/E/GIT/cisgo/html/source/project-add-sub-new.html.erb",
+		"/E/GIT/cisgo/html/source/project-invited.html.erb",
+		"/E/GIT/cisgo/html/source/invoices.html.erb",
+		"/E/GIT/cisgo/html/source/invoice-sent.html.erb",
+		"/E/GIT/cisgo/html/source/project-accepted.html.erb",
+		"/E/GIT/cisgo/html/source/invoices-supplier.html.erb",
+		"/E/GIT/cisgo/html/source/network-add.html.erb",
+		"/E/GIT/cisgo/html/source/invoice-add-payment.html.erb",
+		"/E/GIT/cisgo/app/appmando.cisgo.site/Web.config",
+		"/E/GIT/cisgo/app/appmando.cisgo.site/appmando.cisgo.site.csproj",
+		"/E/GIT/cisgo/html/source/project-assign2.html.erb",
+		"/E/GIT/cisgo/html/source/assets/scripts/libs/enquire.min.js",
+		"/E/GIT/cisgo/html/source/network-individual.html.erb",
+		"/E/GIT/cisgo/html/source/assets/scripts/custom.js",
+		"/E/GIT/cisgo/html/source/network-non-member-edit.html.erb",
+		"/E/GIT/cisgo/html/source/invoice-disputed.html.erb",
+		"/E/GIT/cisgo/html/source/settings-organisation.html.erb",
+		"/E/GIT/cisgo/html/source/assets/css/jquery-ui.scss",
+		"/E/GIT/cisgo/html/source/settings-users.html.erb",
+		"/E/Users/Danielle/Downloads/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js",
+		"/E/GIT/cisgo/html/source/assets/scripts/libs/jquery-ui-1.10.4.custom.min.js",
+		"/E/Users/Danielle/Downloads/jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.css",
+		"/E/GIT/cisgo/html/source/assets/css/helpMenu.scss",
+		"/E/GIT/cisgo/html/source/assets/scripts/jquery.mmenu.js",
+		"/E/GIT/cisgo/html/source/settings-users-individual.html.erb",
+		"/E/GIT/cisgo/html/source/network-individual-non-member.html.erb",
+		"/E/GIT/cisgo/html/source/network-add2.html.erb",
+		"/E/GIT/cisgo/html/source/settings-organisation-add.html.erb",
+		"/E/GIT/cisgo/html/source/settings-account.html.erb",
+		"/E/GIT/cisgo/html/source/ua-login.html.erb",
+		"/E/GIT/cisgo/html/source/network-network-non-member-edit.html.html.erb",
+		"/E/GIT/cisgo/html/source/settings-users-permissions.html.erb",
+		"/E/GIT/cisgo/html/source/settings-users-invite.html.erb",
+		"/E/GIT/cisgo/html/source/assets/css/mmenu.scss",
+		"/E/Users/Danielle/Downloads/Mmenu/Slick-App-Like-Sliding-Menu-Plugin-With-jQuery-Mmenu/src/js/jquery.mmenu.js",
+		"/E/GIT/cisgo/html/source/assets/scripts/jquery.mmenu.min.all.js",
+		"/E/GIT/cisgo/html/source/settings-users-add.html.erb",
+		"/E/GIT/Responsive-Off-Canvas-Menu/css/step3.css",
+		"/E/GIT/cisgo/html/source/ua-password.html.erb",
+		"/E/GIT/cisgo/html/source/assets/css/menuSlide.scss",
+		"/E/GIT/cisgo/html/source/sublimeproject.sublime-project",
+		"/E/GIT/cisgo/html/source/ua-password-reset.html.erb",
+		"/E/GIT/cisgo/html/source/ua-password-email.html.erb",
+		"/E/GIT/cisgo/html/source/assets/scripts/libs/jquery.hammer.min.js",
+		"/E/GIT/cisgo/html/build/assets/scripts/libs/jquery.hammer.min.js",
+		"/E/GIT/cisgo/html/source/assets/scripts/libs/jquery.tablesorter.min.js",
+		"/E/GIT/SofasAndStuff/app/SAS.Web/templates/homeFullModule.html",
+		"/E/GIT/Responsive-Off-Canvas-Menu/js/main.jquery.js",
+		"/E/GIT/Responsive-Off-Canvas-Menu/step3.html",
+		"/E/GIT/RWD-Table-Patterns/index.html",
+		"/E/GIT/cisgo/html/source/assets/css/structure.scss",
+		"/E/Users/Danielle/Downloads/jQuery.mmenu-master/jQuery.mmenu-master/demo/advanced.html",
+		"/E/Users/Danielle/Downloads/jQuery.mmenu-master/jQuery.mmenu-master/src/css/jquery.mmenu.css",
+		"/E/Users/Danielle/Downloads/jQuery.mmenu-master/jQuery.mmenu-master/index.html",
+		"/E/Users/Danielle/Downloads/jQuery.mmenu-master/index.html",
+		"/E/GIT/cisgo/html/source/assets/scripts/helpmenu.js",
+		"/E/GIT/cisgo/html/source/assets/scripts/menu.js",
+		"/E/GIT/SofasAndStuff/app/SAS.Web/css/navigation.css",
+		"/E/GIT/cisgo/html/source/assets/css/reset.scss",
+		"/E/GIT/cisgo/html/build/assets/scripts/modernizr-2.6.2.min.js",
+		"/C/Program Files (x86)/Git/etc/gitconfig",
+		"/E/GIT/cisgo/html/source/assets/css/menu.scss",
+		"/E/GIT/cisgo/html/source/assets/scripts/jquery-1.11.0.min.js",
+		"/E/GIT/cisgo/html/source/_loginHeader.erb",
+		"/E/GIT/Responsive-Off-Canvas-Menu/js/main.js",
+		"/E/GIT/cisgo/html/source/assets/scripts/main.js",
+		"/E/GIT/Responsive-Off-Canvas-Menu/step3-jquery.html",
+		"/E/GIT/SofasAndStuff/app/SAS.Web/css/all.css",
+		"/E/GIT/SofasAndStuff/app/SAS.Web/css/dropdown.css",
+		"/E/GIT/SofasAndStuff/app/SAS.Web/css/navigation-footer.css",
+		"/E/GIT/cisgo/html/source/index.html.erb",
+		"/E/GIT/cisgo/html/source/loginHeader.erb",
+		"/E/GIT/responsiveMenu/assets/scripts/menu.js",
+		"/E/GIT/cisgo/html/source/scripts.erb",
+		"/E/GIT/responsiveMenu/assets/css/menu.css",
+		"/E/GIT/responsiveMenu/README.md",
+		"/E/GIT/responsiveMenu/demo.html",
+		"/E/GIT/cisgo/html/source/assets/css/menu.css",
+		"/E/GIT/cisgo/html/source/assets/css/ie.css",
+		"/E/GIT/cisgo/html/source/header.erb",
+		"/E/GIT/cisgo/html/source/footer.erb",
+		"/E/GIT/cisgo/new/source/ua-password.html.erb",
+		"/E/GIT/cisgo/new/source/ua-password-reset.html.erb",
+		"/E/GIT/cisgo/new/source/ua-password-email.html.erb",
+		"/E/GIT/cisgo/new/source/ua-login.html.erb",
+		"/E/GIT/cisgo/new/source/header.erb",
+		"/E/GIT/cisgo/new/source/assets/css/styles.scss",
+		"/E/GIT/cisgo/new/source/assets/css/reset.scss",
+		"/E/GIT/cisgo/new/source/login.html",
+		"/E/GIT/cisgo/html/ua-password-email.html",
+		"/E/GIT/cisgo/new/source/footer.erb",
+		"/E/Eligo Media/Clients/Celebrations/Web/html/assets/css/styles.css",
+		"/E/Eligo Media/Clients/Celebrations/Web/html/blog.html",
+		"/E/Eligo Media/Clients/Celebrations/Web/html/template.html",
+		"/E/Eligo Media/Clients/Liberatoin Jersey/Website/index.html",
+		"/E/Eligo Media/Clients/Liberatoin Jersey/Website/2011/artists.html",
+		"/E/Eligo Media/Clients/Liberatoin Jersey/Website/events.html",
+		"/E/Eligo Media/Clients/Liberatoin Jersey/Website/2011/about.html",
+		"/E/Eligo Media/Clients/Liberatoin Jersey/Website/artists.html",
+		"/E/Eligo Media/Clients/Liberatoin Jersey/Website/about.html",
+		"/E/Eligo Media/Clients/Tits/tits.sublime-workspace",
+		"/E/Eligo Media/Clients/Tits/assets/css/ie.css",
+		"/E/Eligo Media/Clients/NDC Foot Trimming/Website/assets/css/styles.scss",
+		"/E/Eligo Media/Clients/Tits/assets/css/menu.scss",
+		"/E/GIT/responsiveMenu/assets/css/styles.css",
+		"/E/Eligo Media/Clients/NDC Foot Trimming/Website/subpage.html",
+		"/E/Eligo Media/Clients/NDC Foot Trimming/Website/withsubnav.html",
+		"/E/Eligo Media/Clients/NDC Foot Trimming/Website/generic.html",
+		"/E/Eligo Media/Clients/NDC Foot Trimming/Website/team.html",
+		"/E/Eligo Media/Clients/NDC Foot Trimming/Website/assets/css/styles.css"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"youtube",
+			"9",
+			".intro",
+			"box-sizin",
+			"eggs",
+			"receipe-details",
+			"recipe-image",
+			" contact-image",
+			"red",
+			".badges",
+			"breeser",
+			"webkit",
+			"current",
+			"\n",
+			"li.current-menu-item",
+			".background .sub-menu-wrapper ul li.current-menu-item > a",
+			"li.current-menu-item",
+			".background .sub-menu-wrapper ul li.current-menu-item > a",
+			"li.current-menu-item",
+			"li.current-menu-item > a",
+			".background .sub-menu-wrapper ul li ul a",
+			"arrow",
+			".background .sub-menu-wrapper",
+			"sub-menu-wra",
+			"fff3aa",
+			"sub-menu-wrapper",
+			"sub-menu-wr",
+			"margin-left",
+			"10%",
+			"10% ",
+			"10%",
+			".sub-right p img",
+			"rtate",
+			"footer ",
+			"padding: 0px 0 5px 0; ",
+			".intro",
+			"li:hover ",
+			"li:hover \n",
+			".mainMenu .menu > li:hover > ul li",
+			"arial",
+			"Egg Facts",
+			"BreeSerif",
+			"breeserif",
+			"badges",
+			"video",
+			"bree",
+			".blogpost",
+			"rece",
+			"hasborder",
+			"box-sizing",
+			".image-top-wrapper",
+			" .sub-menu-wrapper",
+			"slider",
+			"@media",
+			"@media screen and",
+			"@media",
+			"toggleMenu",
+			"footer",
+			"@media",
+			"  @media",
+			"  @media only screen",
+			"  @media only screen ",
+			"mages/arrow.png",
+			"../images/arrow.png) ",
+			"clock",
+			"categ",
+			"caeg",
+			"breeser",
+			".intro",
+			";\n",
+			".current-menu-item",
+			"curr",
+			"BreeSerif",
+			"seventy",
+			"p",
+			"$red",
+			":hover",
+			"sub",
+			".red",
+			"red",
+			".intro.red",
+			"center",
+			".menu li ",
+			"yellow",
+			"#yellow",
+			"intro",
+			"container",
+			"fact-image",
+			"fact-image]",
+			"facts",
+			"h3",
+			"photo-img",
+			"primary",
+			"menu",
+			"d",
+			"secondaryNav",
+			"seconda",
+			"dd {",
+			"dd",
+			".small",
+			".sm",
+			"dd.sm",
+			"dt {",
+			"dt",
+			"invoice",
+			"subcontr",
+			"Approver",
+			"selectAll",
+			"tableSearchMobile",
+			"dl",
+			"h2",
+			"h3",
+			"h4",
+			"clients",
+			"tablese",
+			"section",
+			"      <div class=\"mobile-search-wrapper\">\n        <p><a href=\"#\" class=\"tableSearchMobile\">Search</a></p>\n        </div",
+			"schedu",
+			"invoice",
+			"max-w",
+			"searchFilterBox",
+			"searchfilterinvoice",
+			"sub-c",
+			"sub-contr",
+			"sub-c",
+			".groupWrapper",
+			"hidden",
+			"importnat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true
+}

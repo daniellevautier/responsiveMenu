@@ -1,38 +1,48 @@
 /*
-Responsive Mobile Toggle Menu v2.0
-Description: Mobile first responsive toggle menu IE8 and IE7 desktop fallback
+Responsive Mobile Toggle Menu v2.1
+Description: Mobile first responsive toggle menu IE8 and IE7 desktop media query fallback
 Author: Danielle Vautier
 */
+
+/*This is functional CSS do not change this bit */
+
 label.menuTitle {
 	display:none;
 	}
-	
-.menu { 
+
+.mainMenu ul { 
 	display:block!important;
 	border:0;
-	padding:10px 0;
-	max-height:100%;/*Important for ie7*/
 	overflow:visible;
-	border-bottom:1px solid #ccc;
+	max-height:100%!important; 
 	}	
 
-.menu li {
+.mainMenu ul li {
 	width:auto; 
 	display:inline; 
 	border:0; 
-	border-left:1px solid #ccc;
 	}
-	
-.menu li:hover  {
-	background:none;
-	}
-	
-.menu li:first-child {
-	border-left:0;
-	}
-	
-.menu a, .menu a:visited {
+
+.mainMenu a, .mainMenu a:visited {
 	display:inline; 
 	width:auto;
+	}
+
+
+/*Add any styling CSS here */
+
+.mainMenu {
+	padding:10px 0;
+	}
+
+.mainMenu li {
+	border:0;
+	}
+
+.mainMenu a:hover  {
+	color:#ccc;
+	}
+
+.mainMenu a, .mainMenu a:visited {
 	padding:0 3px 0 8px;
 	}

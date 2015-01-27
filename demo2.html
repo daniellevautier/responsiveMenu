@@ -3,11 +3,11 @@
 	<meta charset="utf-8">
 	<title>Responsive Mobile Toggle Menu</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="assets/css/styles.css" type="text/css"/>
-	<link rel="stylesheet" href="assets/css/menu.css" type="text/css"/>
+	<link rel="stylesheet" href="./assets/css/styles.css" type="text/css"/>
+	<link rel="stylesheet" href="./assets/css/menu.css" type="text/css"/>
 
 	<!--[if lt IE 9]>
-    <link rel="stylesheet" href="assets/css/ie.css"/>
+    <link rel="stylesheet" href="./assets/css/ie.css"/>
     <![endif]-->
 </head>
 
@@ -16,27 +16,29 @@
 	<nav class="mainMenu"><!-- "nav" is an HTML5 element, you can use div if required or https://github.com/aFarkas/html5shiv to force support in ie7 and ie8 -->
 		<label for="toggleMenu" class="menuTitle">MENU</label>
 		<input type="checkbox" id="toggleMenu" />
-		<ul class="menu">
+		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#about">About</a></li>
 			<li><a href="#versionHistory">Version History</a></li>
 			<li><a href="#contact">Contact</a></li>
+
 		</ul>
 	</nav>
 	
 	<div class="content">
 		<!-- make sure you float this div -->
 	
-		<h2 id="about">Responsive Mobile Toggle Menu v2.0!</h2>
-		<p><strong>This demo shows in page only anchors with forced closing of the menu. Sadly, JQuery is used for the forced closing action but the menu will still work without it! Yey progressive enhancement!</strong></p>
+		<h2 id="about">Responsive Menu On Page Links Demo</h2>
+		<p><strong>This demo shows on page neby menu anchors with forced closing of the menu after click. Sadly, JQuery is used for the forced closing action but it isn't required for functionality and the menu will still work without it! Yey progressive enhancement!</strong></p>
 		<p><a href="readme.md">Readme</a> for usage and support.</p>
-		<small>Or take a look at some <a href="https://www.google.co.uk/search?safe=off&hl=en&site=imghp&tbm=isch&source=hp&biw=672&bih=584&q=cute+kittens&oq=cute+kittens&gs_l=img.3..0l10.954.2074.0.2167.12.9.0.3.3.0.84.468.9.9.0....0...1ac.1.29.img..0.12.482.bIDY1QB_Oys">really cute kittens</a></small>
+		<small>Or take a look at some <a href="https://www.google.co.uk/search?safe=off&amp;hl=en&amp;site=imghp&amp;tbm=isch&amp;source=hp&amp;biw=672&amp;bih=584&amp;q=cute+kittens&amp;oq=cute+kittens&amp;gs_l=img.3..0l10.954.2074.0.2167.12.9.0.3.3.0.84.468.9.9.0....0...1ac.1.29.img..0.12.482.bIDY1QB_Oys">really cute kittens</a></small>
 		<p><small><a href="#top">Back to top</a></small></p>
 
 		<h3 id="versionHistory">Version History</h3>
 		<ul>	
+			<li>Version 2.1 Added SVG Support, fixed menu height bug and added variables to menu.js</li>
 			<li>Version 2.0 Restructured CSS and added support for child pages</li>
-			<li>Version 1.2.1 Added bug fix for older Android browser < 4.3</li>
+			<li>Version 1.2.1 Added bug fix for older Android browser pre 4.3</li>
 			<li>Version 1.2 Added function to force close the menu after clicking a menu link.</li>
 			<li>Version 1.1 removed CSS transation because of lag and fixed menu to be hidden on refresh with JQuery </li>
 			<li>Version 1.0 </li>
@@ -52,7 +54,7 @@
 	</div>
 	
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="assets/scripts/menu.js"></script>
+<script type="text/javascript" src="./assets/scripts/menu.js"></script>
 
 <script>
 	$(function() {

@@ -12,12 +12,12 @@ Menu Usage
    <nav class="mainMenu"> <!-- "nav" is an HTML5 element, you can use div if required or https://github.com/aFarkas/html5shiv to force support in ie7 and ie8 -->
       <label for="toggle" class="menu-title">Menu</label>
       <input type="checkbox" id="toggle" />
-    <ul class="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
 ```
 
@@ -46,14 +46,14 @@ Browser Support - TBC
 * iOS 6.0+
 * Android 3+
 
-Internet Explorer 8 and 7 do not support media queries but an IE specific stylesheet (ie.css) is included 
-to provide a desktop fallback.
+Internet Explorer 8 and 7 do not support media queries but an IE specific stylesheet (ie.css) is included to provide a desktop fallback.
 
 **Author:** [www.danielle.vautier.co.uk](http://www.daniellevautier.co.uk)
 I take no responsibility for your broken code.
 
 Version History 
 ---------------
+* Version 2.1 - Added SVG Support, fixed menu height bug now 100% and added variables to menu.js for easier management
 * Version 2.0 - Restructured CSS and added support for child pages
 * Version 1.2.1 - Added bug fix for older Android browser < 4.3
 * Version 1.2 - Added function to force close the menu after clicking a menu link

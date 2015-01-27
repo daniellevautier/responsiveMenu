@@ -1,13 +1,18 @@
 /*
-Responsive Mobile Toggle Menu v2.0
+Responsive Mobile Toggle Menu v2.1
 Description: Mobile first responsive toggle menu
 Author: Danielle Vautier
 */
 
 /*Menu mobile first CSS*/
 body{ -webkit-animation: bugfix infinite 1s; }
+
 /*This fixes a chrome/webkit bug for older Android Browsers */
 @-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } 
+
+
+/*Required functional CSS don't change this bit
+CSS styles are at the end! */
 
 .mainMenu {
 	display:block;
@@ -15,29 +20,19 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	width:100%;
 	margin:0;
 	padding:0;
-	text-align: center;
 	float:left;
 	}
 	
-#toggleMenu, .toggleMenu { 
+#toggleMenu { 
 	display: none;
 	}
 
-.toggleMenu { 
-	display: block; 
-	position: relative; 
-	cursor: pointer; 
-	-webkit-touch-callout: none; 
-	-webkit-user-select: none; 
-	user-select: none; 
-	}
-	
-#toggleMenu:checked ~ .menu {  
-	max-height:2000px; /*Make page height */ 
+#toggleMenu:checked ~ ul {  
+	max-height:100%; /*Make page height*/ 
 	opacity:1;
 	}
 	
-.menu {
+.mainMenu ul {
 	width:100%;
 	margin:0;
 	padding:0;
@@ -47,45 +42,28 @@ body{ -webkit-animation: bugfix infinite 1s; }
 	max-height:0;
 	}
 
-.menu ul {
-	float:left;
-	width:100%;
-}
-
-.menu li {
+.mainMenu li {
 	margin:0;
 	padding:0;
-	white-space:nowrap;
+	white-space:nowrap; /*Might need to revist this*/
 	display:block;
 	width:100%;
 	}
 	
-.menu li:hover {
-	cursor:pointer;
-	}
-	
-.menu a, .menu a:visited {
-	text-decoration:none;
+.mainMenu a, .mainMenu a:visited {
 	display:block;
-	width:94%;
-	padding:5px 3%;
+	width:100%; /*required to make whole element clickable*/
 	}
-
-.menu li:first-child {
-	border-left:0;
-	}	
 
 label.menuTitle {
-	text-align:left;
-	padding:6px 3%;
 	margin:0;
-	width:94%;
 	display:block;
-	font-weight:bold;
 	cursor:pointer;
-/*	background:url(../images/menu.svg) no-repeat 97% 10px;*/
-	background:url(../images/menu.png) no-repeat 97% 10px;
-	background-size: 24px 19px; 
+	background: url('../images/menu.png');
+    background-image: url('../images/menu.svg'), none; 
+	background-repeat: no-repeat;
+	background-position: 97% 10px;
+	background-size: 24px 19px; /*Make same size as your menu.png*/
 	}
 	
 @media screen and (min-width:768px) {
@@ -93,62 +71,66 @@ label.menuTitle {
 		display:none;
 		}
 	
-	.menu { 
+	.mainMenu ul { 
 		display:block!important;
 		border:0;
 		overflow:visible;
-		max-height:100px!important;
-		padding:10px 0;
+		max-height:100%!important; 
 		}	
 
-	.menu li {
+	.mainMenu ul li {
 		width:auto; 
 		display:inline; 
 		border:0; 
 		}
-		
-	.menu li:hover  {
-		background:none;
-		}
-	
-		
-	.menu a, .menu a:visited {
+
+	.mainMenu a, .mainMenu a:visited {
 		display:inline; 
 		width:auto;
 		}
 	}
 
 
-/*Menu Styling CSS*/
-
+/*Menu Styling CSS - change the below to suit your site!*/
 .mainMenu {
 	border-bottom:1px solid #ccc;
+	text-align: center;
 	box-shadow:0px 0px 3px 5px #ececec;
 	}
 
-.menu li {
+.mainMenu li {
 	border-top:1px solid #ccc;
 	}
 	
-.menu a, .menu a:visited, .menu:active {
+.mainMenu a, .mainMenu a:visited {
 	color:#333;
+	text-decoration:none;
+	width:94%; /*Use 100% and box-sizing if not supporting ie7*/
+	padding:5px 3%;
 	background: none;
 	}
 	
 label.menuTitle {
 	font-size:20px;
+	width:94%;  /*Use 100% and box-sizing if not supporting ie7*/
+	padding:6px 3%;
+	font-weight:bold;
 	}
 	
 @media screen and (min-width:768px) {
-	.menu li {
+	.mainMenu {
+		padding:10px 0;
+		}
+
+	.mainMenu li {
 		border:0;
 		}
 	
-	.menu li:hover a {
+	.mainMenu a:hover  {
 		color:#ccc;
 		}
 
-	.menu a, .menu a:visited {
+	.mainMenu a, .mainMenu a:visited {
 		padding:0 3px 0 8px;
 		}
 }

@@ -1,35 +1,48 @@
 /*
-Responsive Mobile Toggle Menu v1.2.1
+Responsive Mobile Toggle Menu v2.1
 Description: JS enhances CSS response time and menu caching but not required
 Author: Danielle Vautier
 */
 
+/*Variables*/
+
+/*
+If you've change the HTML classes, change these here only 
+*/
+var navClassSelector = '.mainMenu'; // Make sure to include the . 
+var labelClassSelector = '.menuTitle'; // Make sure to include the . 
+
+/*Functions*/
+
+/*
+Call this function on page if you want to reset the menu 
+to 'closed' on page load with optional slideToggle animation
+*/
 var responsiveMenu = function(e) {
-	//Reset menu to closed on load
-	//Set max-height to max height of menu
-	$('.menu').css({ 'max-height' : '800px', 'display' : 'none'});
-
-	//Animate menu
-	$('.menuTitle').click(function () {
-		$('.menu').slideToggle();
+	$(navClassSelector + '> ul').css({ 'max-height' : '100%', 'display' : 'none'});
+	$(labelClassSelector).click(function () {
+		$(navClassSelector + '> ul').slideToggle(); //Can use toggle() if you prefer no animation
 	});
-}	
+}
 
-/* This function should be called if you wish the 
-menu to be forced closed after clicking an item. */
+/*
+Call this function on page if you want to reset the menu 
+to 'closed' after clicking a menu link e.g. use for on page 
+anchor menu as per demo2.html
+*/
 
 var forceUncheck = function() {
-	$(".menu a").click(function() {
+	$(navClassSelector + ' ul a').click(function() {
 		$("#toggleMenu").prop('checked', false);
 	});
 }
 
 /* This function should be called if you want to toggle 
-Children as per demo 3 */
+Children as per demo3.html */
 
 var toggleChildren = function() {
 
-	$(".menu > li").each( function() {
+	$(navClassSelector + '> ul > li').each( function() {
 		if ($(this).children("ul").length > 0) {
 			$(this).prepend("<a class='toggleChildren' href='#'></a>");
 		} else {

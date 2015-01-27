@@ -3,11 +3,11 @@
 	<meta charset="utf-8">
 	<title>Responsive Mobile Toggle Menu</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="assets/css/styles.css" type="text/css"/>
-	<link rel="stylesheet" href="assets/css/menu.css" type="text/css"/>
+	<link rel="stylesheet" href="./assets/css/styles.css" type="text/css"/>
+	<link rel="stylesheet" href="./assets/css/menu.css" type="text/css"/>
 
 	<!--[if lt IE 9]>
-    <link rel="stylesheet" href="assets/css/ie.css"/>
+    <link rel="stylesheet" href="./assets/css/ie.css"/>
     <![endif]-->
 </head>
 
@@ -16,7 +16,7 @@
 		<label for="toggleMenu" class="menuTitle" onclick="">MENU</label>
 		<!-- onclick overwrides iOS 6 and Android 4.3  --> 
 		<input type="checkbox" id="toggleMenu" />
-		<ul class="menu">
+		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Version History</a></li>
@@ -26,15 +26,16 @@
 	
 	<div class="content">
 		<!-- make sure you float this div -->
-		<h2>Responsive Mobile Toggle Menu v2.0!</h2>
-		<p><strong>Mobile first responsive toggle menu. Hurrah for mobile first. This is the basic single level menu demo. </strong></p>
+		<h2>Responsive Menu Basic Demo</h2>
+		<p><strong>Mobile first responsive toggle menu. Hurrah for mobile first. This is the basic single level menu demo with no JQuery. </strong></p>
 		<p><a href="readme.md">Readme</a> for usage and support.</p>
-		<small>Or take a look at some <a href="https://www.google.co.uk/search?safe=off&hl=en&site=imghp&tbm=isch&source=hp&biw=672&bih=584&q=cute+kittens&oq=cute+kittens&gs_l=img.3..0l10.954.2074.0.2167.12.9.0.3.3.0.84.468.9.9.0....0...1ac.1.29.img..0.12.482.bIDY1QB_Oys">really cute kittens</a></small>
+		<small>Or take a look at some <a href="https://www.google.co.uk/search?safe=off&amp;hl=en&amp;site=imghp&amp;tbm=isch&amp;source=hp&amp;biw=672&amp;bih=584&amp;q=cute+kittens&amp;oq=cute+kittens&amp;gs_l=img.3..0l10.954.2074.0.2167.12.9.0.3.3.0.84.468.9.9.0....0...1ac.1.29.img..0.12.482.bIDY1QB_Oys">really cute kittens</a></small>
 
 		<h3>Version History</h3>
 		<ul>
+			<li>Version 2.1 Added SVG Support, fixed menu height bug and added variables to menu.js</li>
 			<li>Version 2.0 Restructured CSS and added support for child pages</li>
-			<li>Version 1.2.1 Added bug fix for older Android browser < 4.3</li>
+			<li>Version 1.2.1 Added bug fix for older Android browser pre 4.3</li>
 			<li>Version 1.2 Added function to force close the menu after clicking a menu link.</li>
 			<li>Version 1.1 removed CSS transation because of lag and fixed menu to be hidden on refresh with JQuery </li>
 			<li>Version 1.0 </li>
@@ -42,6 +43,7 @@
 	</div>
 	
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<!-- <script type="text/javascript" src="assets/scripts/menu.js"></script> -->
+<!--<script type="text/javascript" src="assets/scripts/menu.js"></script> -->
+
 </body>
 </html>
