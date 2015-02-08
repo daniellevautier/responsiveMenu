@@ -48,9 +48,6 @@ Browser Support - TBC
 
 Internet Explorer 8 and 7 do not support media queries but an IE specific stylesheet (ie.css) is included to provide a desktop fallback.
 
-**Author:** [www.danielle.vautier.co.uk](http://www.daniellevautier.co.uk)
-I take no responsibility for your broken code.
-
 Version History 
 ---------------
 * Version 2.2 Reworking the demo3 CSS/JQuery Single child menu
@@ -60,6 +57,9 @@ Version History
 * Version 1.2 - Added function to force close the menu after clicking a menu link
 * Version 1.1 - Removed transitions and added JQuery Animation and on reload bug
 * Version 1.0 - CSS transitions
+
+**Author:** [www.danielle.vautier.co.uk](http://www.daniellevautier.co.uk)
+I take no responsibility for your  code.
 
 License
 -------
