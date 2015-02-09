@@ -1,4 +1,4 @@
-Responsive Mobile Toggle Menu v2.2
+Responsive Mobile Toggle Menu v2.3
 ==================================
 
 A **mobile first**, **responsive**, CSS toggle menu with jQuery enhancements.
@@ -50,6 +50,7 @@ Internet Explorer 8 and 7 do not support media queries but an IE specific styles
 
 Version History 
 ---------------
+* Version 2.3 Use transform CSS for toggle image instead of two images
 * Version 2.2 Reworking the demo3 CSS/JQuery Single child menu
 * Version 2.1 - Added SVG Support, fixed menu height bug now 100% and added variables to menu.js for easier management
 * Version 2.0 - Restructured CSS and added support for child pages
