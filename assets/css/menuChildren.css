@@ -177,8 +177,14 @@ label.menuTitle {
 }
 
 .mainMenu .toggleChildren.contract {
-	background: url(../images/nav-arrow-contract.png) no-repeat center center;
+	background:url(../images/nav-arrow.png) no-repeat center center;
 	background-size: 11px 8px; 
+	-moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
 }
 
 .mainMenu > ul ul a, .mainMenu > ul ul a:visited {
