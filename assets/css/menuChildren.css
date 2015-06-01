@@ -8,7 +8,7 @@ Author: Danielle Vautier
 body{ -webkit-animation: bugfix infinite 1s; }
 
 /*This fixes a chrome/webkit bug for older Android Browsers */
-@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } 
+// causing issues in safari @-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } 
 
 /*Required functional CSS don't change this bit
 CSS styles are at the end! */

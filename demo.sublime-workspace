@@ -1,0 +1,675 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"tex-tr",
+				"text-transform"
+			],
+			[
+				"pur",
+				"medPurple"
+			],
+			[
+				"ligh",
+				"lightGrey"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"form",
+				"form-field-wrapper"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"ove",
+				"overflow-x"
+			],
+			[
+				"lig",
+				"lightGrey"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-align-last"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"menu",
+				"menu-item"
+			],
+			[
+				"dark",
+				"darkPurple"
+			],
+			[
+				"se",
+				"setSpacing"
+			],
+			[
+				"webki",
+				"webkit-appearance"
+			],
+			[
+				"input",
+				"inputText"
+			],
+			[
+				"med",
+				"medPurple"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"tex-t",
+				"text-decoration"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"tex-",
+				"text-decoration"
+			],
+			[
+				"exper",
+				"expertLocation"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"list-",
+				"list-style-image"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"backgrond",
+				"background-position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "demo.html",
+			"settings":
+			{
+				"buffer_size": 2320,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/ie.css",
+			"settings":
+			{
+				"buffer_size": 652,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"intal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/_development/responsiveSassBP/source/assets/css/styles.scss",
+		"/D/_development/ciras-rebuild/html/source/assets/css/styles.scss",
+		"/C/Users/DANIEL~1/AppData/Local/Temp/nh7d57fv.bmp",
+		"/C/Users/DANIEL~1/AppData/Local/Temp/pctccm0w.bmp",
+		"/C/Users/DanielleVautier/Downloads/bootstrap-3.3.2-dist/bootstrap-3.3.2-dist/css/bootstrap.css",
+		"/D/_development/drum-presentation/html/assets/scripts/app.js",
+		"/D/_development/DiabetesUK/app/Src/Diabetes.EP.Web/Assets/css/responsive.css",
+		"/D/_development/DiabetesUK/app/Src/Diabetes.EP.Web/Assets/TemplateCss/default.css",
+		"/D/_development/Slidebars/examples/slidebars/slidebars.css",
+		"/D/_development/drum-presentation/html/test.html",
+		"/D/_development/FurnessControlsRedesign/app/FurnessControlsRedesign.Web2/css/screen.css",
+		"/D/_development/FurnessControlsRedesign/app/FurnessControlsRedesign.Web2/css/reset.css",
+		"/D/_development/drum-presentation/html/source/assets/scripts/app.js",
+		"/D/_development/drum-presentation/html/source/assets/css/_variables.scss",
+		"/D/_development/drum-presentation/html/source/assets/css/styles.scss",
+		"/D/_development/drum-presentation/html/source/assets/css/_font-awesome.scss",
+		"/D/_development/drum-presentation/html/source/assets/css/_css.scss",
+		"/D/_development/drum-presentation/html/source/_footer.erb",
+		"/D/_development/drum-presentation/html/source/_header.erb",
+		"/D/_development/drum-presentation/html/source/index.html.erb",
+		"/D/_development/drum-presentation/html/build/index.html",
+		"/D/_development/SofasAndStuff/html/SofasAndStuff.sublime-project",
+		"/D/_development/drum-presentation/html/source/assets/scripts/jqLite.js",
+		"/D/_development/RSA/html/source/assets/css/_variables.scss",
+		"/D/_development/drum-presentation/html/source/assets/scripts/modernizr-2.8.3.min.js",
+		"/D/_development/drum-presentation/html/source/assets/css/ie.scss",
+		"/D/_development/drum-presentation/html/source/assets/css/_framework.scss",
+		"/C/Users/DanielleVautier/Desktop/_framework.scss",
+		"/D/_development/responsiveSassBP/source/assets/css/_reset.scss",
+		"/D/_development/responsiveSassBP/source/assets/css/_variables.scss",
+		"/D/_development/responsiveSassBP/source/assets/scripts/modernizr-2.6.2.min.js",
+		"/D/_development/responsiveSassBP/source/_header.erb",
+		"/D/_development/responsiveSassBP/SublimeProject.sublime-workspace",
+		"/D/_development/responsiveSassBP/SublimeProject.sublime-project",
+		"/D/_development/responsiveSassBP/assets/scripts/custom.js",
+		"/D/_development/responsiveSassBP/assets/css/reset.scss",
+		"/D/_development/responsiveSassBP/assets/css/styles.scss",
+		"/D/_development/responsiveSassBP/index.html",
+		"/D/_development/responsiveSassBP/assets/images/cat.jpg",
+		"/C/_Development/AirPartner/wwwroot/css/design.css",
+		"/C/_Development/AirPartner/wwwroot/html/genearlenquiry.html",
+		"/C/_Development/responsiveSassBP/assets/css/reset.scss",
+		"/C/_Development/responsiveSassBP/assets/css/reset.css",
+		"/C/_Development/SponsorworksSaaS/html/assets/css/sponsorworks.css",
+		"/C/_Development/responsiveSassBP/assets/css/styles.scss",
+		"/C/_Development/responsive-boiler-plate/index.html",
+		"/C/_Development/responsiveSassBP/assets/css/styles.css",
+		"/C/_Development/responsiveSassBP/assets/css/styles.scss.orig",
+		"/C/_Development/responsive-boiler-plate/assets/scripts/jquery-1.9.1.min.js",
+		"/C/_Development/MBAFeedback/newhtml/assets/css/styles.scss",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/css/all.css",
+		"/C/_Development/MBAFeedback/newhtml/assets/css/ie.css",
+		"//firefly/_projects/sofas and stuff/S&S 2014 Project Work (8278)/emails/SofasAndStuff Alton Email/Alton Email/template-BS.html",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/templates/showrooms/index.html",
+		"//firefly/_projects/sofas and stuff/S&S 2014 Project Work (8278)/emails/SofasAndStuffEdinburghEmail/SofasAndStuffEdinburghEmail/template-BS.html",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/templates/bestsellers/index.html",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/templates/cornerSofas.html",
+		"//firefly/_projects/sofas and stuff/S&S 2014 Project Work (8278)/emails/SofasAndStuff Alton Email/SofasAndStuffEdinburghEmail/template-BS.html",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/templates/sofaLandscapeModule.html",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/templates/sofaHalfModule.html",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/templates/homeFullModule.html",
+		"/C/Users/daniellevautier/Desktop/Guide-to-diabetes.htm",
+		"/C/_Development/DiabetesUK/html/Styles/default.css",
+		"/C/_Development/MBA/html/build/assets/css/styles.css",
+		"/C/_Development/MBA/html/source/assets/css/styles.css",
+		"/C/_Development/MBA/html/source/assets/css/ie.scss",
+		"/C/_Development/MBA/html/build/assets/css/ie.css",
+		"/C/_Development/MBA/html/source/assets/css/ie.css",
+		"/C/_Development/MBA/html/source/assets/css/styles.scss",
+		"/C/Users/daniellevautier/Desktop/responsive.css",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/templates/videoPlacement/index.html",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/css/slideshow2.css",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/css/structure.css",
+		"/C/_Development/SofasAndStuff/app/SAS.Web/css/product.css",
+		"/C/_Development/CEOP/design assets/TUK11to16/assets/css/styles.css",
+		"/C/_Development/CEOP/app/CEOP.Web/assets/style/ThinkUKnow_11_16_New/styles.css",
+		"/C/_Development/CEOP/design assets/TUK11to16/tukLatest.html",
+		"/C/_Development/CEOP/design assets/TUK11to16/index.html",
+		"/C/_Development/Greater-Anglia-Intranet/map/js/craftmap.js",
+		"/C/_Development/responsive-boiler-plate/assets/css/styles.css",
+		"/C/_Development/Greater-Anglia-Intranet/map/js/jquery.js",
+		"/C/Users/daniellevautier/Desktop/sig - Copy - Copy - Copy.html",
+		"/C/Users/daniellevautier/Desktop/sig - Copy - Copy.html",
+		"/C/Users/daniellevautier/Desktop/sig2.html",
+		"/C/_Development/LandmarkTrust/html/SearchBook/searchAndBook.html",
+		"/C/Users/daniellevautier/Desktop/sig - Copy.html",
+		"/C/_Development/xmas/Christmas/app/MBA.Christmas2013.Web/assets/css/styles.scss",
+		"/C/_Development/Greater-Anglia-Intranet/map/index.html",
+		"/C/_Development/Greater-Anglia-Intranet/map/map",
+		"/C/_Development/Everest/html/contact-us.html",
+		"/C/_Development/Everest/html/drivespatioshome.html",
+		"/C/_Development/Everest/html/list-of-benefits.html",
+		"/C/_Development/Everest/html/assets/scripts/custom.js",
+		"/C/_Development/Everest/html/assets/scripts/accordion.js",
+		"/C/_Development/Everest/html/assets/scripts/lib/enquire.js",
+		"/C/_Development/Everest/html/assets/scripts/custom.min.js",
+		"/C/_Development/Everest/html/product-details.html",
+		"/C/_Development/xmas/Christmas/index.html",
+		"/C/_Development/xmas/Christmas/assets/scripts/custom.js",
+		"/C/_Development/xmas/Christmas/assets/scripts/Photobooth.js",
+		"/C/_Development/xmas/Christmas/assets/css/ie.css",
+		"/C/_Development/Christmas/assets/scripts/custom.js",
+		"/C/_Development/Christmas/assets/css/reset.scss",
+		"/C/_Development/Everest/everest.scss",
+		"/C/_Development/Christmas/assets/scripts/Photobooth.js",
+		"/C/_Development/Christmas/assets/css/styles.scss",
+		"/C/_Development/Christmas/assets/css/ie.css",
+		"/C/_Development/Christmas/index.html",
+		"/C/_Development/mba.christmas/assets/css/styles.scss",
+		"/C/_Development/Christmas/assets/css/reset.css",
+		"/C/_Development/mba.christmas/index.html",
+		"/C/_Development/MBAFeedback/newhtml/Email template/email.html",
+		"/C/_Development/MBAFeedback/newhtml/assets/css/reset.scss",
+		"/C/_Development/MBAFeedback/newhtml/finish.html",
+		"/C/_Development/MBAFeedback/newhtml/index.html",
+		"/C/_Development/MBA.StyleGuide/middleman/source/resizer/index.html.erb",
+		"/C/_Development/MBA.StyleGuide/MBAProject.sublime-project",
+		"/C/_Development/MBA.StyleGuide/MBAProject.sublime-workspace",
+		"/C/_Development/SofasAndStuff/html/assets/css/ie.scss",
+		"/C/_Development/SofasAndStuff/html/assets/scripts/jquery-1.9.1.min.js",
+		"/C/_Development/SofasAndStuff/html/assets/css/reset.scss",
+		"/C/_Development/SofasAndStuff/html/assets/css/bxslider.scss",
+		"/C/_Development/SofasAndStuff/html/assets/scripts/custom.js",
+		"/C/_Development/SofasAndStuff/html/assets/css/menu.scss",
+		"/C/_Development/SofasAndStuff/html/assets/scripts/media.match.min.js",
+		"/C/_Development/SofasAndStuff/html/assets/scripts/matchMedia.js",
+		"/C/_Development/SofasAndStuff/html/assets/scripts/modernizr-2.6.2.min.js",
+		"/C/_Development/SofasAndStuff/html/assets/scripts/modernizr-2.6.2-respond-1.1.0.min.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"widget-left",
+			"sidebar",
+			"orm-field-wrappe",
+			"message",
+			".tab-content",
+			".sb-slidebar",
+			"expanded",
+			".chat-window-controls",
+			"expanded",
+			"expand",
+			"220px",
+			"menu-btn",
+			"truncate",
+			"my meeting",
+			"header label.title",
+			"audio-cont",
+			"ispresenter",
+			"tabs-header {",
+			"coloured-li",
+			"-10px",
+			"half-list",
+			"presentation",
+			"50px",
+			"50px.",
+			"50px",
+			".task-input-wrapper",
+			"form-field-wr",
+			"bootstrap.min.",
+			"<link href=\"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.",
+			"<link href=\"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css\" rel=\"stylesheet\">",
+			"bootstr",
+			"close",
+			"{\n",
+			"button",
+			".modal-footer",
+			"close",
+			"title",
+			"modal-he",
+			".modal-title",
+			"close",
+			"modal-h",
+			"modal-header",
+			"modal-heade",
+			".chat-window",
+			"header",
+			"waiting",
+			"isWidgetConnected",
+			"  <div class=\"widget-left sb-slidebar sb-left small-header\">",
+			"not connec",
+			"you are not ",
+			"close",
+			"close page",
+			"!meetingControls.isWidgetConnected()",
+			"ng-if=\"!meetingControls.isWidgetConnected()",
+			"<div class=\"widget-left sb-slidebar sb-left",
+			"idget-left sb-slidebar sb-lef",
+			"eetingControls.inWaitingRoom()\"",
+			"<div ng-if=\"!meetingControls.isWidgetConnected()\" >",
+			"fa-expand",
+			"clickable",
+			"fa fa-expand",
+			".widget-left",
+			"widget-left",
+			"widfet-left",
+			"widhet-left",
+			"i",
+			"div ng-if=\"meetingControls.inWaitingRoom()\">",
+			"inWaitingRoom",
+			"meetingControls",
+			"widget-left sb-slidebar sb-left",
+			"widget-left sb-slideb",
+			" <header>",
+			"toggle",
+			"div class=\"widget-left sb-slidebar sb-left\">",
+			"div",
+			"widget-left",
+			"meetingControls",
+			"widget-left sb-slidebar sb-left",
+			"widget-left",
+			"left",
+			"widget-left",
+			"class=\"widget-wrapper\"",
+			"lass=\"widget-wrapper\"",
+			"open",
+			"chat-window",
+			"open",
+			"viewport",
+			";\n",
+			"widget-wrappe",
+			"chat-bar",
+			"chat-wrap",
+			"dget-righ",
+			"widget-wrp",
+			"if=\"meetingControls",
+			"if=\"meetingControls.inWaitingRoom()",
+			"lass=\"widget-wrapper\"",
+			"meetingControls.inWaitingRoom(",
+			" testsetset",
+			"expanded",
+			".chat-window",
+			".ex",
+			"expanded",
+			"px",
+			".chat-window.open",
+			"chat-window",
+			"chat-bar",
+			".chat-bar form input.chat-text, .chat-bar form input.decision-text, .chat-bar form input.task-text",
+			"timepi",
+			"require",
+			"required",
+			"::required",
+			"assignee",
+			"    <span class=\"title\">Due on</span>\n        <span class=\"datepicker\">\n          <input type=\"text\"\n                 datepicker-popup=\"dd-MMMM-yyyy\"\n                 ng-model=\"dueDateTime\"\n                 is-open=\"datepickerOpened\"\n                 min=\"2015-01-01\"\n                 max=\"2020-01-01\"\n                 datepicker-options=\"{'year-format': 'yy', 'starting-day': 1 }\"\n                 ng-required=\"true\"\n                 show-weeks=\"true\"\n                 close-text=\"Close\"/>\n          </span>\n        <span class=\"title\">at</span>\n        <span class=\"timepicker\">\n          <timepicker ng-model=\"dueDateTime\"\n                      hour-step=\"1\"\n                      minute-step=\"15\"\n                      show-meridian=\"true\"/>\n        </span>",
+			".tab-content .stream-wrapper",
+			"modal-dialog",
+			"modal-dialog ",
+			"modal-d",
+			".modal.fade .modal-dialog {\n  -webkit-transition: -webkit-transform .3s ease-out;\n       -o-transition:      -o-transform .3s ease-out;\n          transition:         transform .3s ease-out;\n  -webkit-transform: translate(0, -25%);\n      -ms-transform: translate(0, -25%);\n       -o-transform: translate(0, -25%);\n          transform: translate(0, -25%);\n}\n.modal.in .modal-dialog {\n  -webkit-transform: translate(0, 0);\n      -ms-transform: translate(0, 0);\n       -o-transform: translate(0, 0);\n          transform: translate(0, 0);\n}",
+			"form-",
+			".modal-content",
+			"modal",
+			"modal\n",
+			"modal-conte",
+			"15",
+			"modal",
+			"button",
+			"button-wrapper",
+			".modal {"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "demo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								381,
+								381
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/ie.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								652,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "demo.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"assets/css/styles.css"
+			],
+			[
+				"inde",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
